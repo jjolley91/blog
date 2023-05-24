@@ -183,11 +183,11 @@ XSS stands for cross site-scripting, and arises when JavaScript is able to take 
 
 Since they were nice enough to simply provide the exact command, I just pasted it into the search bar:
 
-![xss_search](xss_search.png)
+![xss_search](https://github.com/jjolley91/blog/blob/main/images/xss_search.png?raw=true)
 
 ##### *Note* : the box that appears just contains 'xss', but could contain any other string/malicious code.
 
-![xss_result](xss_result.png)
+![xss_result](https://github.com/jjolley91/blog/blob/main/images/xss_result.png?raw=true)
 
 also note the areas where the query is visible, this could have also been executed by typing 
 ```html
@@ -204,7 +204,7 @@ directly in the address bar!
  ```
 >in the DOM XSS challenge.
 
-![bonus_xss_result](bonus_xss_result.png)
+![bonus_xss_result](https://github.com/jjolley91/blog/blob/main/images/bonus_xss_result.png?raw=true)
 
 
 This command redirects to a soundcloud api and plays the catchy Juice Shop Jingle, which has been stuck in my head for a week now. This is an excellent example of how this type of vulnerability can be used to wreak havoc on improperly coded sites.
@@ -216,14 +216,14 @@ This command redirects to a soundcloud api and plays the catchy Juice Shop Jingl
 
 This seems to direct me to the support chat section.
 
-![support_location](support_location.png)
+![support_location](https://github.com/jjolley91/blog/blob/main/images/support_location.png?raw=true)
 
 The chatbot asks for your name, i named myself coupon.
-![support_name](support_name.png)
+![support_name](https://github.com/jjolley91/blog/blob/main/images/support_name.png?raw=true)
 
  I kept asking for a coupon but kept getting a no from the chatbot. However, the category for this challenge was **Brute force**, so I just kept asking coupon related questions. Eventually it gave up the goods!
 
-![bully_chatbot](bully_chatbot.png)
+![bully_chatbot](https://github.com/jjolley91/blog/blob/main/images/bully_chatbot.png?raw=true)
 
 easy peasy!
 
@@ -234,16 +234,16 @@ easy peasy!
 
 This one had me stumped, However since it specified that the document is supposed to be confidential, I tried logging back in as admin and while clicking around went to the 'About Us' page.
 
-![about_us](about_us.png)
+![about_us](https://github.com/jjolley91/blog/blob/main/images/about_us.png?raw=true)
 I noticed a link in the txt which downloaded the legal.md document. This did not satisfy the requirement, however. 
 
 Hovering over the link shows: /ftp/legal.md... interesting
 
-![link_address](link_addr.png)
+![link_address](https://github.com/jjolley91/blog/blob/main/images/link_addr.png?raw=true)
 
 I decided to go to the /ftp directory and sure enough, found a list of some files that looked interesting.
 
-![ftp_directory](ftp_dir.png)
+![ftp_directory](https://github.com/jjolley91/blog/blob/main/images/ftp_dir.png?raw=true)
 
 I decided to download the aqusitions.md file and that satisfied the challenge, I also continued poking around here a bit, but decided to move on for now.
 
@@ -254,9 +254,111 @@ I decided to download the aqusitions.md file and that satisfied the challenge, I
 
 There are a bunch of ways to solve this challenge, I just tried another sql login using just a single ' as the username. This breaks the query and causes an error.
 
-![provoke_error](provoke_error.png)
+![provoke_error](https://github.com/jjolley91/blog/blob/main/images/provoke_error.png?raw=true)
 
 
+#### Exposed Metrics
+
+>Find the endpoint that serves usage data to be scraped by a [popular monitoring system](https://github.com/prometheus/prometheus).
+
+**Note**: Here there is a hint, as the words 'Popular Monitoring system' are a link.
+
+The link goes to a Github page for Promethus, which seems to be a monitoring system which collects metrics at intervals, triggers alerts, etc..
+
+
+Eventually after going over the documentation, and trying different directory possibilities, I found the /metrics directory which seems to list processes going on behind the scenes on the site, and also solved this challenge.
+
+![metrics_page](metrics_page.png)
+
+This is referred to as a 'RTFM hack'
+
+
+#### Mass Dispel
+
+> Close multiple "Challenge solved"-notifications in one go.
+
+For this one, the main challenge was not instantly clicking the 'x' as the notification banner comes up, since you need to have multiple on screen at the same time.
+
+Once you have two or more green banners on your screen, just click the 'x' while holding shift on the keyboard to close all of them at once and solve the challenge!
+
+![mass_dispel](mass_dispel.png)
+
+
+#### Missing Encoding
+
+> Retrieve the photo of Bjoern's cat in "melee combat-mode"
+
+For this one, since it mentions photos I started with the photo wall, and right away there is a photo that is not loading.
+
+![broken_photo](broken_photo.png)
+
+😼 #zatschi #whoneedsfourlegs
+
+Eventualy I decided to inspect the page and found:
+
+http://10.10.1.5/assets/public/images/uploads/%F0%9F%98%BC-#zatschi-#whoneedsfourlegs-1572600969477.jpg
+
+![broken_photo_inspection](broken_photo_inspection.png)
+
+it seems that the # is causing the HTML to stop reading the address resulting in the photo not being displayed. 
+
+I tried manually urlencoding the # as %23 (which I got from cyberchef) 
+
+![battle_mode](battle_mode.png)
+
+That actually worked and I was graced with a cute cat picture!
+
+
+#### Outdated Allowlist 
+
+> Let us redirect you to one of our crypto currency addresses which are not promoted any longer.
+
+I ended up back in the main.js in dev tools, searching for 'Redirect'
+There were a lot of redirects, but eventually I found one that mentioned blockchain:
+
+![debugger_redirect](debugger_redirect.png)
+
+./redirect?to=https://blockchain.info/address/1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm
+
+http://10.10.1.5/#/redirect?to=https:%2F%2Fblockchain.info%2Faddress%2F1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm
+
+This led me to a wallet with 1.60 balance ( this will be worth more in the future probably)
+
+![btc_wallet](btc_wallet.png)
+
+
+#### Privacy Policy 
+
+> Read our privacy policy.
+
+This one's easy, just go to account< privacy&security < privacy policy 
+
+![privacy_pol](priv_pol.png)
+
+
+#### Repetitive Registration 
+
+> Follow the DRY principle while registering a user.
+
+After googling the DRY principle which means Don't Repeat Yourself, I found the only area in the user registration which asks me to repeat myself is the 'Repeat Password' area.
+
+![registration_normal](registration_normal.png)
+This was interesting to me, if you type a pw and then mismatch the retype field, the register button is grayed out. However, if you match the passwords and then go and add an extra character to the password field, the register button stayes enabled! Pretty neat!
+
+
+![registration_broken](registration_broken.png)
+
+Interestingly, the actual password that is saved is the password field, it only checks the Password field and whether or not the retype field matches, but does not check it again after that.
+
+
+#### Score Board
+
+> Find the carefully hidden 'Score Board' page.
+
+I went over this earlier on in the writeup, to reinterate : I found this by using dev tools to inspect the main.js and search for 'Path:', then look for score-board.
+
+
+This concludes the level 1 challenges, on to level 2
 
 # Level 2
 
