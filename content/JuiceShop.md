@@ -268,7 +268,7 @@ The link goes to a Github page for Promethus, which seems to be a monitoring sys
 
 Eventually after going over the documentation, and trying different directory possibilities, I found the /metrics directory which seems to list processes going on behind the scenes on the site, and also solved this challenge.
 
-![metrics_page](metrics_page.png)
+![metrics_page](https://github.com/jjolley91/blog/blob/main/images/metrics_page.png?raw=true)
 
 This is referred to as a 'RTFM hack'
 
@@ -281,7 +281,7 @@ For this one, the main challenge was not instantly clicking the 'x' as the notif
 
 Once you have two or more green banners on your screen, just click the 'x' while holding shift on the keyboard to close all of them at once and solve the challenge!
 
-![mass_dispel](mass_dispel.png)
+![mass_dispel](https://github.com/jjolley91/blog/blob/main/images/mass_dispel.png?raw=true)
 
 
 #### Missing Encoding
@@ -290,7 +290,7 @@ Once you have two or more green banners on your screen, just click the 'x' while
 
 For this one, since it mentions photos I started with the photo wall, and right away there is a photo that is not loading.
 
-![broken_photo](broken_photo.png)
+![broken_photo](https://github.com/jjolley91/blog/blob/main/images/broken_photo.png?raw=true)
 
 😼 #zatschi #whoneedsfourlegs
 
@@ -298,13 +298,13 @@ Eventualy I decided to inspect the page and found:
 
 http://10.10.1.5/assets/public/images/uploads/%F0%9F%98%BC-#zatschi-#whoneedsfourlegs-1572600969477.jpg
 
-![broken_photo_inspection](broken_photo_inspection.png)
+![broken_photo_inspection](https://github.com/jjolley91/blog/blob/main/images/broken_photo_inspection.png?raw=true)
 
 it seems that the # is causing the HTML to stop reading the address resulting in the photo not being displayed. 
 
 I tried manually urlencoding the # as %23 (which I got from cyberchef) 
 
-![battle_mode](battle_mode.png)
+![battle_mode](https://github.com/jjolley91/blog/blob/main/images/battle_mode.png?raw=true)
 
 That actually worked and I was graced with a cute cat picture!
 
@@ -316,7 +316,7 @@ That actually worked and I was graced with a cute cat picture!
 I ended up back in the main.js in dev tools, searching for 'Redirect'
 There were a lot of redirects, but eventually I found one that mentioned blockchain:
 
-![debugger_redirect](debugger_redirect.png)
+![debugger_redirect](https://github.com/jjolley91/blog/blob/main/images/debugger_redirect.png?raw=true)
 
 ./redirect?to=https://blockchain.info/address/1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm
 
@@ -324,7 +324,7 @@ http://10.10.1.5/#/redirect?to=https:%2F%2Fblockchain.info%2Faddress%2F1AbKfgvw9
 
 This led me to a wallet with 1.60 balance ( this will be worth more in the future probably)
 
-![btc_wallet](btc_wallet.png)
+![btc_wallet](https://github.com/jjolley91/blog/blob/main/images/btc_wallet.png?raw=true)
 
 
 #### Privacy Policy 
@@ -333,7 +333,7 @@ This led me to a wallet with 1.60 balance ( this will be worth more in the futur
 
 This one's easy, just go to account< privacy&security < privacy policy 
 
-![privacy_pol](priv_pol.png)
+![privacy_pol](https://github.com/jjolley91/blog/blob/main/images/priv_pol.png?raw=true)
 
 
 #### Repetitive Registration 
@@ -342,11 +342,11 @@ This one's easy, just go to account< privacy&security < privacy policy
 
 After googling the DRY principle which means Don't Repeat Yourself, I found the only area in the user registration which asks me to repeat myself is the 'Repeat Password' area.
 
-![registration_normal](registration_normal.png)
+![registration_normal](https://github.com/jjolley91/blog/blob/main/images/registration_normal.png?raw=true)
 This was interesting to me, if you type a pw and then mismatch the retype field, the register button is grayed out. However, if you match the passwords and then go and add an extra character to the password field, the register button stayes enabled! Pretty neat!
 
 
-![registration_broken](registration_broken.png)
+![registration_broken](https://github.com/jjolley91/blog/blob/main/images/registration_broken.png?raw=true)
 
 Interestingly, the actual password that is saved is the password field, it only checks the Password field and whether or not the retype field matches, but does not check it again after that.
 
