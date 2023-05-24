@@ -22,7 +22,7 @@ After some poking around I decided to try logging in. I decided to see if the si
 >password: q
 
 
-![sql_login](sqlimg.png)
+![sql_login](https://github.com/jjolley91/blog/blob/main/images/sql_login.png?raw=true)
 
 **Note:** Accepting the cookies is a good idea here.
 
@@ -44,7 +44,7 @@ Thus we end up canceling the original query and the system just returns the firs
 
 So we now have the Admin email as: admin@juice-sh.op
 
-![admin_email](admin_email.png)
+![admin_email](https://github.com/jjolley91/blog/blob/main/images/admin_email.png?raw=true)
 
 
 OK, Still just poking around on my own I eventually clicked on the 'Help getting started' which gave a pop-up with a few interesting hints such as:
@@ -63,7 +63,7 @@ I looked in Dev tools< Debugger (right click the screen, then choose inspect) an
 ```js
 path: 'score-board'
 ```
-![debugger_search](debugger_search.png)
+![debugger_search](https://github.com/jjolley91/blog/blob/main/images/debugger_search.png?raw=true)
 
 
 I then just decided to try searching for 'Path', as a rudimentary directory fuzzing technique. I was rewarded with a nice list of directories to check out while going through the rest of the challenges.
@@ -162,7 +162,7 @@ I will refer back to the list as I go or if I get stuck, for now I decided to se
 
 >http://juiceshop-ip-address/#/score-board/
 
-![score-board-page](scoreboard_page.png)
+![score-board-page](https://github.com/jjolley91/blog/blob/main/images/scoreboard_page.png?raw=true)
 
 
 By this point it shows I have completed 1 level 1 challenge and one level 2 challenge, but from here on I will attempt to solve these in the order they appear by difficulty.
