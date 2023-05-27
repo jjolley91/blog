@@ -15,7 +15,7 @@ Any time there is a search bar, or area a user can imput text on a web applicati
  ### Logging in as Admin using SQL Injection:
  #### Difficulty: Trivial
 
-![sql_login](/sqli/sql_login.png)
+![sql_login](https://github.com/jjolley91/blog/blob/main/static/sqli/sql_login.png?raw=true)
 
 >email: 'or 1=1--
 
@@ -79,25 +79,25 @@ The first part of the challenge here is identifying a different way to use the s
 
 I used BurpSuite for most of this but I will also note that you can find the same directory by using the devtools < network tab< and searching for 'search'
 
-![dev_tools_method](/sqli/4dev_tools_method.png)
+![dev_tools_method](https://github.com/jjolley91/blog/blob/main/static/sqli/4dev_tools_method.png?raw=true)
 
 >Note: all of the following sql queries can also be done directly from the address bar, but I will be using burp repeater.
 
 First, I fired up BurpSuite, and added the ip address for juice shop to the scope list:
 
-![1_scope](/sqli/1_scope.png)
+![1_scope](https://github.com/jjolley91/blog/blob/main/static/sqli//1_scope.png?raw=true)
 
 Next, I enabled FoxyProxy and simply refreshed the page to trigger burp to begin mapping the site.
 
-![2site_map](/sqli/2site_map.png)
+![2site_map](https://github.com/jjolley91/blog/blob/main/static/sqli/2site_map.png?raw=true)
 
 Here you can see the GET request /sqli/rest/sqli/products/sqli/search which I sent to the repeater to start testing for the sql injection potential.
 
-![3send_to_repeater](/sqli/3send_to_repeater.png)
+![3send_to_repeater](https://github.com/jjolley91/blog/blob/main/static/sqli/3send_to_repeater.png?raw=true)
 
 Here you can see that with the first attempt, the server returns an error message!
 
-![5first_injection](/sqli/5first_injection.png)
+![5first_injection](https://github.com/jjolley91/blog/blob/main/static/sqli/5first_injection.png?raw=true)
 
 This is a very good sign since it tells me that the server is using SQLite, and also that the query did reach the database!
 
@@ -115,15 +115,15 @@ The ')) is used to end the query, and the -- turns the rest of the query into a 
 
 This does the trick and returns the entire table of products!
 
-![6returned_table](/sqli/6returned_table.png)
+![6returned_table](https://github.com/jjolley91/blog/blob/main/static/sqli/6returned_table.png?raw=true)
 
 Since the challenge mentions 'Christmas' I just searched for christmas within the response and noted the ID:10
 
-![7christmas_id](/sqli/7christmas_id.png)
+![7christmas_id](https://github.com/jjolley91/blog/blob/main/static/sqli/7christmas_id.png?raw=true)
 
 I then intercepted the traffic and changed the product id to 10.
 
-![9mod_basket](/sqli/9mod_basket.png)
+![9mod_basket](https://github.com/jjolley91/blog/blob/main/static/sqli/9mod_basket.png?raw=true)
 
 This still did not complete the challenge however, I realized I needed to actually checkout to place the order. Once I did that the challenge was complete!
 
