@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://jjolley91.github.io/blog/juiceshop/</loc>
+    <lastmod>2023-05-25T13:25:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jjolley91.github.io/blog/tags/juiceshop/</loc>
+    <lastmod>2023-05-25T13:25:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jjolley91.github.io/blog/juiceshop/juiceshop-vs-xss/</loc>
+    <lastmod>2023-05-25T13:25:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jjolley91.github.io/blog/</loc>
+    <lastmod>2023-05-25T13:25:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jjolley91.github.io/blog/tags/</loc>
+    <lastmod>2023-05-25T13:25:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jjolley91.github.io/blog/tags/writeups/</loc>
+    <lastmod>2023-05-25T13:25:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jjolley91.github.io/blog/tags/xss/</loc>
+    <lastmod>2023-05-25T13:25:32-05:00</lastmod>
+  </url><url>
+    <loc>https://jjolley91.github.io/blog/juiceshop/juiceshop-vs-sqli/</loc>
+    <lastmod>2023-05-25T13:20:30-05:00</lastmod>
+  </url><url>
+    <loc>https://jjolley91.github.io/blog/tags/sqli/</loc>
+    <lastmod>2023-05-25T13:20:30-05:00</lastmod>
+  </url><url>
+    <loc>https://jjolley91.github.io/blog/categories/</loc>
+  </url>
+</urlset>

