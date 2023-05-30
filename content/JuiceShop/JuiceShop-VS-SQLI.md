@@ -26,9 +26,19 @@ Here is a list of challenges I was able to complete using SQL injection.
 ### Ephemeral Accountant
 #### Difficulty: Moderate
 
+
 > NOTE There are also some low hanging fruit challenges that I was able to solve along the way.
 
-### 
+### Error Handling
+#### Difficulty: Trivial
+### Mass Dispel
+#### Difficulty: Trivial
+### Password Strength
+#### Difficulty: Trivial
+#### Score-board
+#### Difficulty: Trivial
+### View Basket
+#### Difficulty: Easy
 
 *******************************************************************
 
@@ -85,7 +95,7 @@ Next, I enabled FoxyProxy and simply refreshed the page to trigger burp to begin
 
 ![2site_map](https://github.com/jjolley91/blog/blob/main/static/sqli/2site_map.png?raw=true)
 
-Here you can see the GET request /sqli/rest/sqli/products/sqli/search which I sent to the repeater to start testing for the sql injection potential. Notice here we are not using the hash fragment.
+Here you can see the GET request /rest/products/search which I sent to the repeater to start testing for the sql injection potential. Notice here we are not using the hash fragment.
 
 ![3send_to_repeater](https://github.com/jjolley91/blog/blob/main/static/sqli/3send_to_repeater.png?raw=true)
 
@@ -124,11 +134,9 @@ I then intercepted the traffic and changed the product id to 10.
 
 This still did not complete the challenge however, I realized I needed to actually checkout to place the order. Once I did that the challenge was complete!
 
-##
+***************************************************************************
 
-We already found that we can query the database using the /rest/products/search?q=
-
-Now it is just a matter of querying the database in a way that returns the entire DB schema deffinition. 
+Now that we've found that we can query the database using the /rest/products/search?q=, it is just a matter of querying the database in a way that returns the entire DB schema deffinition. 
 
 Since we know the database is using SQLite, it's simple to google the syntax which that version of sql uses.
 
@@ -153,9 +161,7 @@ GET /rest/products/search?q=eggs'))UNION%20SELECT%20sql,2,3,4,5,6,7,8,9%20FROM%2
 
 ```
 
-
-
-
+***************************************************************************
 
 #### This section covers the challenges for logging in as Admin, Bender, and Jim.
 
@@ -188,15 +194,14 @@ You can literally log in as any user now, just note the email and decrypt the md
 
 Would you believe there is an even easier way as well? 
 
-Since we know the login is vulnerable to sql, and now we have the emails we can just craft a query in the login page and just terminate the query after a valid email. No password needed! 
+Since we know the login page is also vulnerable to sql, and we now have all the emails, we can just craft a query in the login page and just terminate the query after a valid email. No password needed! 
 
 ![login_no_pass](https://github.com/jjolley91/blog/blob/main/static/sqli/login_no_pass.png?raw=true)
 
 
+***************************************************************************
 
-##
-
-How can we now login if a user doesnt already exist?
+But how can we now login with a user that doesn't already exist?
 
 For this one, I intercepted a bogus login request with burp, and sent it to repeater.
 
