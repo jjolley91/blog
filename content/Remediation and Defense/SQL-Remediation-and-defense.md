@@ -10,8 +10,11 @@ In this writeup I will be discussing Remediation and Defense against SQL injecti
 
 Any time there is a search bar, or area a user can imput text on a web application there exists the potential for sql injection. This makes it very important to properly handle queries from any webapp so that someone does not accidentally, or intentionally break your application.
 
-As stated above this can be easily remediated using prepared statements
-with variable binding. 
+The problem mainly comes from improper configuration.
+
+The solution is to either: not write dynamic queries with string concatenation and/or prevent user supplied input which contains malicious SQL from affecting the intended execution of the query.
+
+As stated above this can be fairly easily remediated with the most effective method being the use of prepared statements with variable binding. 
 Prepared statements ensure that someone is not able to use a query in an unintended way. 
 All this amounts to is a simple change in the way the query is handled on the backend.
 
@@ -26,7 +29,7 @@ try {
     ResultSet results = statement.executeQuery( query );
 }
 ```
-
+This could be used instead:
 ``` SQL
 
 String custname = request.getParameter("customerName");

