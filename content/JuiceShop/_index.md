@@ -2,4 +2,4 @@
 title: Juice Shop
 ---
 
-![img](/sqli/juice_shop.jpg)
+![img](https://github.com/jjolley91/blog/blob/main/images/juice_shop.jpg?raw=true)
