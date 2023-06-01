@@ -4,6 +4,8 @@ date: 2023-05-25T13:20:30-05:00
 tags: ['SQLI','Writeups','JuiceShop', 'SQL Defense and Remediation', 'Defense and Remediation']
 ---
 
+# ![home](https://jjolley91.github.io/blog)
+
 In this writeup I will be discussing Remediation and Defense against SQL injection vulnerabilities based on my [Juice Shop vs SQL injection](https://jjolley91.github.io/blog/juiceshop/juiceshop-vs-sqli/) writeup.
 
 ****************************************************************************
