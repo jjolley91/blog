@@ -6,8 +6,23 @@ tags: ['JuiceShop','Writeups','Cryptography']
 
 
 In this writeup I will be exploring the cryptographic challenges within OWASP Juice Shop.
+****************************************************************************
+### Here is a list of challenges solved in this writeup:
+
+### Weird Crypto
+#### Difficulty: Moderate -> Trivial
 
 
+### Nested Easter Egg
+#### Difficulty: Moderate
+
+### Forged Coupon
+#### Difficulty: Advanced
+
+
+
+
+****************************************************************************
 Confidential Document
 
 While trying to read the confidential document we come across this /ftp directory, which we will visit for the next section.
@@ -15,9 +30,6 @@ While trying to read the confidential document we come across this /ftp director
 ![finding_ftp](https://github.com/jjolley91/blog/blob/main/static/cryptography/finding_ftp.png?raw=true)
 
 
-
-### Nested Easter Egg
-#### Difficulty: Moderate
 
 From the /ftp directory there is an interesting document titled 'eastere.gg'. I tried to click on this, but received an error stating that only .md and .pdf files are allowed.  
 
@@ -55,6 +67,26 @@ After tweaking the settings on the page I was able to see the symbol on the plan
 
 Returning to the score board I found that the challenge was now solved.
 
+****************************************************************************
+
+The weird crypto challenge had me stumped for a while, as I wasn't sure what the question was asking for. However, after solving the Easter egg challenge, I deccided to click the link they provided which goes to the customer feedback page.
+
+I simply informed them that they should not be using such insecure encryption as Rot13, and the challenge was solved!
 
 
+![weird_crypto](https://github.com/jjolley91/blog/blob/main/static/cryptography/weird_crypto.png?raw=true)
+
+
+****************************************************************************
+
+
+As we found earlier, we can just download any of the files in the /ftp directory by adding a null byte and appending the accepted file type
+
+```URL
+%2500.md
+```
+
+I was looking through the files and downloaded the coupons_2013.md.bak file and found a list of gibberish.
+
+![coupons_backup](https://github.com/jjolley91/blog/blob/main/static/cryptography/coupons_backup.png?raw=true)
 

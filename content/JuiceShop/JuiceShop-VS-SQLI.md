@@ -4,6 +4,7 @@ date: 2023-05-25T13:20:30-05:00
 tags: ['SQLI','Writeups','JuiceShop', 'SQL Defense and Remediation ']
 ---
  
+ ![home]()
 
  # Intro
 
@@ -224,4 +225,4 @@ That's a pretty beefy query, but it gets the job done! we are now logged in as a
 You can run this command directly from the login screen instead of using burp as well.
 
 
-Thank you for reading my writeup for SQL injection on Juice Shop. You can check out how to defend against these types of vulnerabilities [here](http://localhost:1313/blog/remediation-and-defense/sql-remediation-and-defense/).
+Thank you for reading my writeup for SQL injection on Juice Shop. You can check out how to defend against these types of vulnerabilities [here](https://jjolley91.github.io/blog/remediation-and-defense/sql-remediation-and-defense/).
