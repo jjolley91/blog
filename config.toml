@@ -2,11 +2,19 @@ baseURL = 'https://jjolley91.github.io/blog/'
 languageCode = 'en-us'
 title = "Oshikuru's blog"
 theme='m10c'
+sectionPagesMenu = 'main'
+
 
 avatar= '/the-witcher-3-wild-hunt.jpg'
 
+
+
+[menu]
+[[menu.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
 [[menu.main]]
   identifier = "tags"
   name = "tags"
-  url = "/tags/"
-
+  
