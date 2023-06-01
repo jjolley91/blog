@@ -4,7 +4,7 @@ date: 2023-05-25T13:25:32-05:00
 tags: ['JuiceShop','Writeups','Cryptography']
 ---
 
-# ![home](https://jjolley91.github.io/blog)
+# [home](https://jjolley91.github.io/blog)
 
 In this writeup I will be exploring the cryptographic challenges within OWASP Juice Shop.
 ****************************************************************************
