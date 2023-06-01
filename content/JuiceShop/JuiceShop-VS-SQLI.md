@@ -4,7 +4,7 @@ date: 2023-05-25T13:20:30-05:00
 tags: ['SQLI','Writeups','JuiceShop', 'SQL Defense and Remediation ']
 ---
  
- [home](https://jjolley91.github.io/blog)
+# [home](https://jjolley91.github.io/blog)
 
  # Intro
 
