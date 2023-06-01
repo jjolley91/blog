@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 25 May 2023 13:25:32 -0500</lastBuildDate><atom:link href="https://jjolley91.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Cryptography</title>
+      <link>https://jjolley91.github.io/blog/tags/cryptography/</link>
+      <pubDate>Thu, 25 May 2023 13:25:32 -0500</pubDate>
+      
+      <guid>https://jjolley91.github.io/blog/tags/cryptography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>JuiceShop</title>
       <link>https://jjolley91.github.io/blog/tags/juiceshop/</link>
       <pubDate>Thu, 25 May 2023 13:25:32 -0500</pubDate>
@@ -26,11 +35,20 @@
     </item>
     
     <item>
-      <title>XSS</title>
-      <link>https://jjolley91.github.io/blog/tags/xss/</link>
-      <pubDate>Thu, 25 May 2023 13:25:32 -0500</pubDate>
+      <title>Defense and Remediation</title>
+      <link>https://jjolley91.github.io/blog/tags/defense-and-remediation/</link>
+      <pubDate>Thu, 25 May 2023 13:20:30 -0500</pubDate>
       
-      <guid>https://jjolley91.github.io/blog/tags/xss/</guid>
+      <guid>https://jjolley91.github.io/blog/tags/defense-and-remediation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SQL Defense and Remediation </title>
+      <link>https://jjolley91.github.io/blog/tags/sql-defense-and-remediation/</link>
+      <pubDate>Thu, 25 May 2023 13:20:30 -0500</pubDate>
+      
+      <guid>https://jjolley91.github.io/blog/tags/sql-defense-and-remediation/</guid>
       <description></description>
     </item>
     

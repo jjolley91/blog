@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>JuiceShop vs cryptography // Oshikuru&#39;s blog</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.112.1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="James Jolley" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/blog/css/main.min.3c3c186cd62e563ad6e2f00a89dbee656ab912d1d46f856b5605dd0232521e2a.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="JuiceShop vs cryptography"/>
+<meta name="twitter:description" content="home In this writeup I will be exploring the cryptographic challenges within OWASP Juice Shop.
+Here is a list of challenges solved in this writeup: Weird Crypto Difficulty: Moderate -&gt; Trivial Nested Easter Egg Difficulty: Moderate Forged Coupon Difficulty: Advanced Confidential Document
+While trying to read the confidential document we come across this /ftp directory, which we will visit for the next section.
+From the /ftp directory there is an interesting document titled &rsquo;eastere."/>
+
+    <meta property="og:title" content="JuiceShop vs cryptography" />
+<meta property="og:description" content="home In this writeup I will be exploring the cryptographic challenges within OWASP Juice Shop.
+Here is a list of challenges solved in this writeup: Weird Crypto Difficulty: Moderate -&gt; Trivial Nested Easter Egg Difficulty: Moderate Forged Coupon Difficulty: Advanced Confidential Document
+While trying to read the confidential document we come across this /ftp directory, which we will visit for the next section.
+From the /ftp directory there is an interesting document titled &rsquo;eastere." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jjolley91.github.io/blog/juiceshop/juiceshop-vs-cryptography/" /><meta property="article:section" content="JuiceShop" />
+<meta property="article:published_time" content="2023-05-25T13:25:32-05:00" />
+<meta property="article:modified_time" content="2023-05-25T13:25:32-05:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://jjolley91.github.io/blog/"><img class="app-header-avatar" src="https://github.com/jjolley91/blog/blob/main/static/the-witcher-3-wild-hunt.jpg?raw=true" alt="https://github.com/jjolley91/blog/blob/main/static/the-witcher-3-wild-hunt.jpg?raw=true" /></a>
+      <span class="app-header-title">Oshikuru&#39;s blog</span>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/blog/">Home</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/blog/juiceshop/">Juice Shop</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/blog/remediation-and-defense/">Remediation and Defenses</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/tags/">tags</a>
+      </nav>
+      <p>here are some words.</p>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">JuiceShop vs cryptography</h1>
+      <div class="post-meta">
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          May 25, 2023
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          2 min read
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="https://jjolley91.github.io/blog/tags/juiceshop/">JuiceShop</a>
+              <a class="tag" href="https://jjolley91.github.io/blog/tags/writeups/">Writeups</a>
+              <a class="tag" href="https://jjolley91.github.io/blog/tags/cryptography/">Cryptography</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <h1 id="homehttpsjjolley91githubioblog"><a href="https://jjolley91.github.io/blog">home</a></h1>
+<p>In this writeup I will be exploring the cryptographic challenges within OWASP Juice Shop.</p>
+<hr>
+<h3 id="here-is-a-list-of-challenges-solved-in-this-writeup">Here is a list of challenges solved in this writeup:</h3>
+<h3 id="weird-crypto">Weird Crypto</h3>
+<h4 id="difficulty-moderate---trivial">Difficulty: Moderate -&gt; Trivial</h4>
+<h3 id="nested-easter-egg">Nested Easter Egg</h3>
+<h4 id="difficulty-moderate">Difficulty: Moderate</h4>
+<h3 id="forged-coupon">Forged Coupon</h3>
+<h4 id="difficulty-advanced">Difficulty: Advanced</h4>
+<hr>
+<p>Confidential Document</p>
+<p>While trying to read the confidential document we come across this /ftp directory, which we will visit for the next section.</p>
+<p><img src="https://github.com/jjolley91/blog/blob/main/static/cryptography/finding_ftp.png?raw=true" alt="finding_ftp"></p>
+<p>From the /ftp directory there is an interesting document titled &rsquo;eastere.gg&rsquo;. I tried to click on this, but received an error stating that only .md and .pdf files are allowed.</p>
+<p>we can add a URL encoded null byte in the address bar and then append the .md to make the server think we are asking for one of the valid file types.</p>
+<p><img src="https://github.com/jjolley91/blog/blob/main/static/cryptography/downloading_easteregg.png?raw=true" alt="downloading_easteregg"></p>
+<p>I opened the file in notepad++ and found the next step in the puzzle:</p>
+<p><a href="https://github.com/jjolley91/blog/blob/main/static/cryptography/viewing_easteregg.png?raw=true">viewing_easteregg</a></p>
+<p>The string &ldquo;L2d1ci9xcmlmL25lci9mYi9zaGFhbC9ndXJsL3V2cS9uYS9ybmZncmUvcnR0L2p2Z3V2YS9ndXIvcm5mZ3JlL3J0dA==&rdquo;</p>
+<p>The fact that this ends in a double equal indicates that this is base64 encoded.</p>
+<p>I plugged this into cyberchef, and the output looks like a directory path, but not a human readable one&hellip;</p>
+<p><img src="https://github.com/jjolley91/blog/blob/main/static/cryptography/decrypt_stage_1.png?raw=true" alt="decrypt_stage_1"></p>
+<p>After trying some different decoding methods, I found that Rot13 cypher returned something that looks like a valid path.</p>
+<p><img src="https://github.com/jjolley91/blog/blob/main/static/cryptography/decrypt_stage_2.png?raw=true" alt="decrypt_stage_2"></p>
+<p>Finally I went back to juice shop and pasted in this path and found a strange planet.</p>
+<p>After tweaking the settings on the page I was able to see the symbol on the planet seems to be some sort of plant!</p>
+<p><img src="https://github.com/jjolley91/blog/blob/main/static/cryptography/easteregg_solution.png?raw=true" alt="easteregg_solution"></p>
+<p>Returning to the score board I found that the challenge was now solved.</p>
+<hr>
+<p>The weird crypto challenge had me stumped for a while, as I wasn&rsquo;t sure what the question was asking for. However, after solving the Easter egg challenge, I deccided to click the link they provided which goes to the customer feedback page.</p>
+<p>I simply informed them that they should not be using such insecure encryption as Rot13, and the challenge was solved!</p>
+<p><img src="https://github.com/jjolley91/blog/blob/main/static/cryptography/weird_crypto.png?raw=true" alt="weird_crypto"></p>
+<hr>
+<p>As we found earlier, we can just download any of the files in the /ftp directory by adding a null byte and appending the accepted file type</p>
+<pre tabindex="0"><code class="language-URL" data-lang="URL">%2500.md
+</code></pre><p>I was looking through the files and downloaded the coupons_2013.md.bak file and found a list of gibberish.</p>
+<p><img src="https://github.com/jjolley91/blog/blob/main/static/cryptography/coupons_backup.png?raw=true" alt="coupons_backup"></p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

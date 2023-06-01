@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Oshikuru&#39;s blog</title>
-    <link>https://jjolley91.github.io/blog/</link>
-    <description>Recent content on Oshikuru&#39;s blog</description>
+    <title>SQL Defense and Remediation  on Oshikuru&#39;s blog</title>
+    <link>https://jjolley91.github.io/blog/tags/sql-defense-and-remediation/</link>
+    <description>Recent content in SQL Defense and Remediation  on Oshikuru&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 May 2023 13:25:32 -0500</lastBuildDate><atom:link href="https://jjolley91.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>JuiceShop vs cryptography</title>
-      <link>https://jjolley91.github.io/blog/juiceshop/juiceshop-vs-cryptography/</link>
-      <pubDate>Thu, 25 May 2023 13:25:32 -0500</pubDate>
-      
-      <guid>https://jjolley91.github.io/blog/juiceshop/juiceshop-vs-cryptography/</guid>
-      <description>home In this writeup I will be exploring the cryptographic challenges within OWASP Juice Shop.
-Here is a list of challenges solved in this writeup: Weird Crypto Difficulty: Moderate -&amp;gt; Trivial Nested Easter Egg Difficulty: Moderate Forged Coupon Difficulty: Advanced Confidential Document
-While trying to read the confidential document we come across this /ftp directory, which we will visit for the next section.
-From the /ftp directory there is an interesting document titled &amp;rsquo;eastere.</description>
-    </item>
-    
+    <lastBuildDate>Thu, 25 May 2023 13:20:30 -0500</lastBuildDate><atom:link href="https://jjolley91.github.io/blog/tags/sql-defense-and-remediation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JuiceShop SQL Defense and Remediation</title>
       <link>https://jjolley91.github.io/blog/remediation-and-defense/sql-remediation-and-defense/</link>
@@ -38,20 +26,6 @@ Any time there is a search bar, or area a user can imput text on a web applicati
       <description>home Intro In this blog I will be exploring OWASP Juice Shop using SQL injection techniques, exploring various enumeration methods, and solving the SQL challenges.
 Here is a list of challenges I was able to complete using SQL injection.
 Logging in as Admin: Difficulty: Trivial Christmas Special Difficulty: Moderate Database Schema Difficulty: Easy Retrieving Credentials: Difficulty: Easy Login Jim Difficulty: Trivial Login Bender Difficulty: Easy Ephemeral Accountant Difficulty: Moderate NOTE There are also some low hanging fruit challenges that I was able to solve along the way.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://jjolley91.github.io/blog/juiceshop/other/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jjolley91.github.io/blog/juiceshop/other/</guid>
-      <description>NoSQL Manipulation Difficulty: Moderate NoSQL (non-sql or not only sql) is a query which targets databases that do not use sql.
-Change query to PATCH /rest/products/reviews
-{ &amp;ldquo;message&amp;rdquo;:&amp;ldquo;sdf&amp;rdquo;, &amp;ldquo;id&amp;rdquo;:{ &amp;ldquo;$ne&amp;rdquo;:-1 } }
-NOte that this is using MongoDB
-But we need to UPDATE the reviews.
-adding a review, then going back and editing it. Catch that request in burp.</description>
     </item>
     
   </channel>

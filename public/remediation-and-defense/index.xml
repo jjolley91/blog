@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Remediation and Defenses on Oshikuru&#39;s blog</title>
+    <link>https://jjolley91.github.io/blog/remediation-and-defense/</link>
+    <description>Recent content in Remediation and Defenses on Oshikuru&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 May 2023 13:20:30 -0500</lastBuildDate><atom:link href="https://jjolley91.github.io/blog/remediation-and-defense/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JuiceShop SQL Defense and Remediation</title>
+      <link>https://jjolley91.github.io/blog/remediation-and-defense/sql-remediation-and-defense/</link>
+      <pubDate>Thu, 25 May 2023 13:20:30 -0500</pubDate>
+      
+      <guid>https://jjolley91.github.io/blog/remediation-and-defense/sql-remediation-and-defense/</guid>
+      <description>home In this writeup I will be discussing Remediation and Defense against SQL injection vulnerabilities based on my Juice Shop vs SQL injection writeup.
+Any time there is a search bar, or area a user can imput text on a web application there exists the potential for sql injection. This makes it very important to properly handle queries from any webapp so that someone does not accidentally, or intentionally break your application.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -8,13 +8,24 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 25 May 2023 13:20:30 -0500</lastBuildDate><atom:link href="https://jjolley91.github.io/blog/tags/sqli/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>JuiceShop vs SQLI</title>
+      <title>JuiceShop SQL Defense and Remediation</title>
+      <link>https://jjolley91.github.io/blog/remediation-and-defense/sql-remediation-and-defense/</link>
+      <pubDate>Thu, 25 May 2023 13:20:30 -0500</pubDate>
+      
+      <guid>https://jjolley91.github.io/blog/remediation-and-defense/sql-remediation-and-defense/</guid>
+      <description>home In this writeup I will be discussing Remediation and Defense against SQL injection vulnerabilities based on my Juice Shop vs SQL injection writeup.
+Any time there is a search bar, or area a user can imput text on a web application there exists the potential for sql injection. This makes it very important to properly handle queries from any webapp so that someone does not accidentally, or intentionally break your application.</description>
+    </item>
+    
+    <item>
+      <title>JuiceShop vs SQL Injection</title>
       <link>https://jjolley91.github.io/blog/juiceshop/juiceshop-vs-sqli/</link>
       <pubDate>Thu, 25 May 2023 13:20:30 -0500</pubDate>
       
       <guid>https://jjolley91.github.io/blog/juiceshop/juiceshop-vs-sqli/</guid>
-      <description>Intro In this blog I will be exploring OWASP Juice Shop using SQL injection techniques, exploring various enumeration methods, and solving the SQL challenges.
-Any time there is a search bar, or area a user can imput text on a web application there exists the potential for sql injection. This makes it very important to handle all possible edege cases so that someone does not accidentally, or intentionally break your application.</description>
+      <description>home Intro In this blog I will be exploring OWASP Juice Shop using SQL injection techniques, exploring various enumeration methods, and solving the SQL challenges.
+Here is a list of challenges I was able to complete using SQL injection.
+Logging in as Admin: Difficulty: Trivial Christmas Special Difficulty: Moderate Database Schema Difficulty: Easy Retrieving Credentials: Difficulty: Easy Login Jim Difficulty: Trivial Login Bender Difficulty: Easy Ephemeral Accountant Difficulty: Moderate NOTE There are also some low hanging fruit challenges that I was able to solve along the way.</description>
     </item>
     
   </channel>
