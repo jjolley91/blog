@@ -5,7 +5,7 @@ theme='m10c'
 sectionPagesMenu = 'main'
 
 
-avatar= '/the-witcher-3-wild-hunt.jpg'
+avatar= 'https://github.com/jjolley91/blog/blob/main/static/the-witcher-3-wild-hunt.jpg?raw=true'
 
 
 
@@ -17,4 +17,4 @@ avatar= '/the-witcher-3-wild-hunt.jpg'
 [[menu.main]]
   identifier = "tags"
   name = "tags"
-  
+  url = "/tags/"
