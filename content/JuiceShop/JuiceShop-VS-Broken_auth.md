@@ -30,6 +30,9 @@ Here is a list of challenges I was able to complete using BAC
 ### Manipulate Basket
 #### Difficulty: Easy
 
+### View Basket
+#### Difficulty: Trivial
+
 ### Product Tampering
 #### Difficulty: Moderate
 
