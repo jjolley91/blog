@@ -1,7 +1,7 @@
 ---
 title: "JuiceShop vs Broken Access Conrtol"
 date: 2023-06-03T13:20:30-05:00
-tags: ['Broken Access Control','Writeups','JuiceShop', 'Broken access Defense and Remediation ']
+tags: ['Broken Access Control','Writeups','JuiceShop', 'Broken access, Defense and Remediation ']
 ---
  
 # [home](https://jjolley91.github.io/blog)
@@ -15,21 +15,23 @@ tags: ['Broken Access Control','Writeups','JuiceShop', 'Broken access Defense an
  ***************************************************************************
 
 Here is a list of challenges I was able to complete using BAC
- ### Admin Section
- #### Difficulty: Easy
+### Admin Section
+#### Difficulty: Easy
 
- ### Five-Star Feedback
- #### Difficulty: Trivial
+### Five-Star Feedback
+#### Difficulty: Trivial
 
- ### Forged Review
- #### Difficulty: Trivial
+### Forged Review
+#### Difficulty: Trivial
 
- ### Forged Feedback
- #### Difficulty: Trivial
+### Forged Feedback
+#### Difficulty: Trivial
 
- ### Manipulate Basket
- #### Difficulty: Easy
+### Manipulate Basket
+#### Difficulty: Easy
 
+### Product Tampering
+#### Difficulty: Moderate
 
 ****************************************************************************
 
@@ -95,3 +97,42 @@ After some research we can see that if we include our valid basket id first, we 
 
 
 ****************************************************************************
+Moving on, let's see if we can change some items descriptions in the shop. 
+
+First we can see that if we intercept a search request in burp and send to repeater, we get this:
+
+![unmodded_blank_search](https://github.com/jjolley91/blog/blob/main/static/broken_Auth/unmodded_blank_search.png?raw=true)
+
+We can tinker with the request and delete the 'If-None-Match' section and suddenly we get  a list of all the products! 
+
+![modded_request](https://github.com/jjolley91/blog/blob/main/static/broken_Auth/modded_request.png?raw=true)
+
+Now we have the info associated with the "OWASP SSL Advanced Forensic Tool (O-Saft)", next we can attempt to modify it.
+
+After a few attempts we can see that we need to modify the request from:
+
+```HTML
+GET /rest/products/search?q= HTTP/1.1
+```
+We can modify the query to include the product id and change it from /rest/ to /api/
+
+```HTML
+GET /api/products/9 HTTP/1.1
+```
+and we now receive only the product info in our response!
+
+![product_info](https://github.com/jjolley91/blog/blob/main/static/broken_Auth/product_info.png?raw=true)
+
+we can add the description to our request and change it to include the new description by changing the request type from "GET" to "PUT", and adding the Content-Type of application/json.
+
+![changes_to_request_description](https://github.com/jjolley91/blog/blob/main/static/broken_Auth/changes_to_request_description.png?raw=true)
+
+
+![desc_change_result](https://github.com/jjolley91/blog/blob/main/static/broken_Auth/desc_change_result.png?raw=true)
+
+Now we can change the href link and complete the challenge: 
+
+![final_description](https://github.com/jjolley91/blog/blob/main/static/broken_Auth/final_description.png?raw=true)
+
+****************************************************************************
+
