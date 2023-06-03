@@ -57,7 +57,7 @@ Here is a list of challenges I was able to complete using BAC
  I sent the request to repeater and noticed the response looks a lot like the request, but there are a few extra fields. I tried editing those and it looks like we are able to add the fields we want and become an administrator! 
 
 
-[add_admin_user](https://github.com/jjolley91/blog/blob/main/static/broken_Auth/add_admin_user.png?raw=true)
+![add_admin_user](https://github.com/jjolley91/blog/blob/main/static/broken_Auth/add_admin_user.png?raw=true)
 
 Now going back and logging in as the new user, and we are able to visit the administration section!
 
