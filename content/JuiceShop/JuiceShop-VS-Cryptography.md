@@ -24,7 +24,8 @@ In this writeup I will be exploring the cryptographic challenges within OWASP Ju
 
 
 ****************************************************************************
-Confidential Document
+# Nested Easter Egg
+### Confidential Document
 
 While trying to read the confidential document we come across this /ftp directory, which we will visit for the next section.
 
@@ -43,7 +44,7 @@ we can add a URL encoded null byte in the address bar and then append the .md to
 I opened the file in notepad++ and found the next step in the puzzle:
 
 
-[viewing_easteregg](https://github.com/jjolley91/blog/blob/main/static/cryptography/viewing_easteregg.png?raw=true)
+![viewing_easteregg](https://github.com/jjolley91/blog/blob/main/static/cryptography/viewing_easteregg.png?raw=true)
 
 
 The string "L2d1ci9xcmlmL25lci9mYi9zaGFhbC9ndXJsL3V2cS9uYS9ybmZncmUvcnR0L2p2Z3V2YS9ndXIvcm5mZ3JlL3J0dA=="
@@ -69,7 +70,7 @@ After tweaking the settings on the page I was able to see the symbol on the plan
 Returning to the score board I found that the challenge was now solved.
 
 ****************************************************************************
-
+# Weird Crypto
 The weird crypto challenge had me stumped for a while, as I wasn't sure what the question was asking for. However, after solving the Easter egg challenge, I deccided to click the link they provided which goes to the customer feedback page.
 
 I simply informed them that they should not be using such insecure encryption as Rot13, and the challenge was solved!
@@ -79,7 +80,7 @@ I simply informed them that they should not be using such insecure encryption as
 
 
 ****************************************************************************
-
+# Forged Coupon
 
 As we found earlier, we can just download any of the files in the /ftp directory by adding a null byte and appending the accepted file type
 

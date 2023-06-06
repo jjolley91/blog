@@ -37,7 +37,7 @@ Here is a list of challenges I was able to complete using BAC
 #### Difficulty: Moderate
 
 ****************************************************************************
-
+# Admin Section
  We can find the administration section by enumerating the directories of the webserver. There are a few different ways to do this:
 
  The first way is to open the developer tools, and looking in the main.js under debugger, we can search for 'path:' which will take us to a list of the directories.
@@ -64,11 +64,12 @@ Now going back and logging in as the new user, and we are able to visit the admi
 ![admin_section](https://github.com/jjolley91/blog/blob/main/static/broken_Auth/admin_section.png?raw=true)
 
 ****************************************************************************
+# Five-Star Feedback
 Notice from this page, we are able to see and delete feedback left by customers! 
 ![delete_5_stars](https://github.com/jjolley91/blog/blob/main/static/broken_Auth/delete_5_stars.png?raw=true)
 
 ****************************************************************************
-
+# Forged Review
 Speaking of feedback, let's go and leave some feedback and see if we can do anything interesting if we catch this request in Burp.
 
 ![leaving_feedback](https://github.com/jjolley91/blog/blob/main/static/broken_Auth/leaving_feedback.png?raw=true)
@@ -79,6 +80,7 @@ sending the request to repeater, and using the list of users we got from the /ad
 
 ![phony_review](https://github.com/jjolley91/blog/blob/main/static/broken_Auth/phony_review.png?raw=true)
 
+# Forged Feedback
 We are able to do the same thing if we go to the customer feedback section:
 
 ![cust_feedback](https://github.com/jjolley91/blog/blob/main/static/broken_Auth/cust_feedback.png?raw=true)
@@ -88,7 +90,7 @@ Catch the request in burp again, this time we need to change the UserID to any o
 ![mod_feedback](https://github.com/jjolley91/blog/blob/main/static/broken_Auth/mod_feedback.png?raw=true)
 
 ****************************************************************************
-
+# Manipulate Basket
 Lets try adding something to someone else's basket. If we click 'Add to basket', and then move over to burp we see the request:
 
 ![our_basket](https://github.com/jjolley91/blog/blob/main/static/broken_Auth/our_basket.png?raw=true)
@@ -100,6 +102,7 @@ After some research we can see that if we include our valid basket id first, we 
 
 
 ****************************************************************************
+# Product Tampering
 Moving on, let's see if we can change some items descriptions in the shop. 
 
 First we can see that if we intercept a search request in burp and send to repeater, we get this:

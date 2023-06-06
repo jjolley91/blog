@@ -44,7 +44,7 @@ Here is a list of challenges I was able to complete using SQL injection.
 *******************************************************************
 
 
-
+# Logging in as Admin:
 
 The first thing I did was navigate to the login page, and just tried a simple blind sql injection.
 
@@ -70,7 +70,7 @@ SELECT user_id FROM users_table WHERE email_address = '' OR 1=1--'
 Thus we end up canceling the original query and the system just returns the first user in the database, which is usually an admin account! Pretty neat!
 
 ***************************************************************************
-
+# Christmas Special
 The site uses the /#/ when using search bar or navigating as intended. What comes after the hash(#) is called a fragment. I will not go to deep into why, but essentialy this is just identifying a part of the page, which keeps the query confined to the client side.
 
 For this reason, Trying sql injection directly from the search bar just results in no results found:
@@ -136,7 +136,7 @@ I then intercepted the traffic and changed the product id to 10.
 This still did not complete the challenge however, I realized I needed to actually checkout to place the order. Once I did that the challenge was complete!
 
 ***************************************************************************
-
+# Database Schema
 Now that we've found that we can query the database using the /rest/products/search?q=, it is just a matter of querying the database in a way that returns the entire DB schema deffinition. 
 
 Since we know the database is using SQLite, it's simple to google the syntax which that version of sql uses.
@@ -164,7 +164,7 @@ GET /rest/products/search?q=eggs'))UNION%20SELECT%20sql,2,3,4,5,6,7,8,9%20FROM%2
 
 ***************************************************************************
 
-#### This section covers the challenges for logging in as Admin, Bender, and Jim.
+# logging in as Admin, Bender, and Jim.
 
 Now that we know how to get info from the DB, how much info can we get?
 The answer is A LOT.
@@ -201,7 +201,7 @@ Since we know the login page is also vulnerable to sql, and we now have all the 
 
 
 ***************************************************************************
-
+# Ephemeral Accountant
 But how can we now login with a user that doesn't already exist?
 
 For this one, I intercepted a bogus login request with burp, and sent it to repeater.
