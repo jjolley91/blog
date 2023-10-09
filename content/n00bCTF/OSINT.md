@@ -1,7 +1,7 @@
 ---
 title: "n00bCTF OSINT challenges"
 date: 2023-05-25T13:25:32-05:00
-tags: ['n00bCTF','Writeups', 'osint']
+tags: ['n00bCTF','Writeups', 'osint','CTF']
 ---
  
 # [home](https://jjolley91.github.io/blog)

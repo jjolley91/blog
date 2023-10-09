@@ -1,7 +1,7 @@
 ---
 title: "n00bCTF Forensics challenges"
 date: 2023-05-25T13:25:32-05:00
-tags: ['n00bCTF','Writeups', 'forensics']
+tags: ['n00bCTF','Writeups', 'forensics','CTF']
 ---
  
 # [home](https://jjolley91.github.io/blog)

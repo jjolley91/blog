@@ -1,5 +1,6 @@
 ---
-title: Juice Shop
+title: Huntress CTF 2023! (Comming soon to a blog near you)
 ---
 
-![img](https://github.com/jjolley91/blog/blob/main/images/juice_shop.jpg?raw=true)
+#![img](C:\\Users\\jolle\\OneDrive\\Desktop\\blog\\images\\Huntress_CTF_2023\\Tmp_team_img.png?raw=true)
+

@@ -1,7 +1,7 @@
 ---
 title: "n00bCTF Misc challenges"
 date: 2023-05-25T13:25:32-05:00
-tags: ['n00bCTF','Writeups', 'Misc']
+tags: ['n00bCTF','Writeups', 'Misc','CTF']
 ---
  
 # [home](https://jjolley91.github.io/blog)
