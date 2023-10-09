@@ -1,4 +1,4 @@
 ---
-title: Medium Difficulty
+title: 2 Medium Difficulty
 ---
 
