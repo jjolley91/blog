@@ -43,8 +43,7 @@ Drilling down further into inject_flag(), we found that the function performs a 
 
 We suspected that the decrypted output would reveal the flag. Now aware of where to look, we pivoted to dynamic analysis with x64dbg.
 
-To streamline analysis and standardize the memory addresses between Ghidra and x64dbg, we first rebased the DLL in Ghidra to match its load address observed in x64dbg.
-!!! Ask if OK !!! A better method we could have used is to disable the DLL's ASLR in CFF Explorer before loading it in the debugger. All memory offsets included from here on will be based on this.
+To streamline analysis and standardize the memory addresses between Ghidra and x64dbg, we first rebased the DLL in Ghidra to match its load address observed in x64dbg. A better method we could have used is to disable the DLL's ASLR in CFF Explorer before loading it in the debugger. All memory offsets included from here on will be based on this.
 
 ![crab_rave6](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/crab_rave6.png?raw=true)
 
