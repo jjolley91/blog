@@ -7,9 +7,9 @@ tags: ['CTF','Writeups', 'osint', 'Medium']
  
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/)
+###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/operation_not_found)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/opendir) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/operation_not_found)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/opendir) 
 
 ### Can you find this iconic location?
 
@@ -28,4 +28,4 @@ The search result immedately returned a picture of the building and named it Fro
 
 ![utb2](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/under_the_bridge_2.png?raw=true)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/operation_not_found)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/opendir) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/operation_not_found)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/opendir) 

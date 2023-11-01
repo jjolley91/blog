@@ -7,9 +7,9 @@ tags: ['CTF','Writeups', 'Misc', 'Medium']
  
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/)
+###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/rogue_inbox)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/indirect_payload) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/rogue_inbox)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/indirect_payload) 
 
 ### It's babel! Just a bunch of gibberish, right? 
 
@@ -60,4 +60,4 @@ strings decoded.exe | grep flag
 ```
 ![babel3](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/babel3.png?raw=true)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/rogue_inbox)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/indirect_payload)
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/rogue_inbox)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/indirect_payload)

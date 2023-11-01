@@ -7,9 +7,9 @@ tags: ['CTF','Writeups', 'Misc', 'Medium']
  
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/)
+###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/tragedy)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/rogue_inbox) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/tragedy)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/rogue_inbox) 
 
 ### Wanna play a game of rock, paper, scissors against a computer that can read your mind? Sounds fun, right? 
 
@@ -43,6 +43,6 @@ We decided to paste these values into [dcode](https://www.dcode.fr/rc4-cipher)'s
 
 ![rock_paper3](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/rock_paper3.png?raw=true)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/tragedy)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/rogue_inbox) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/tragedy)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/rogue_inbox) 
 
 

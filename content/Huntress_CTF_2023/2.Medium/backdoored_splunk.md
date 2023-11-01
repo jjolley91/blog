@@ -7,9 +7,9 @@ tags: ['CTF','Writeups', 'Forensics', 'Medium']
  
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/)
+###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/traffic)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/where_am_i) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/traffic)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/where_am_i) 
 
 ### You've probably seen Splunk being used for good, but have you seen it used for evil?
 
@@ -39,5 +39,5 @@ curl http://chal.ctf.games:30644/ -H Authorization:"Basic YmFja2Rvb3I6dXNlX3RoaX
 We were given a response this time with a base64 encoded message. We were able to decode the response and submit the flag!
 ![splunk](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/backdoored_splunk.png?raw=true)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/traffic)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/where_am_i) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/traffic)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/where_am_i) 
 

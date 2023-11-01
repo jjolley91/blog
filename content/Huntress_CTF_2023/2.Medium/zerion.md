@@ -7,9 +7,9 @@ tags: ['CTF','Writeups', 'Malware', 'Medium']
  
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/)
+###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/hot_off_the_press) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/hot_off_the_press) 
 
 ### We observed some odd network traffic, and found this file on our web server... can you find the strange domains that our systems are reaching out to?
 
@@ -48,4 +48,4 @@ php zerion | egrep -oE 'flag\{[0-9a-f]{32}\}'
 
 ![zerion2](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/zerion3.png?raw=true)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/hot_off_the_press) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/hot_off_the_press) 

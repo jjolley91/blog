@@ -7,9 +7,9 @@ tags: ['CTF','Writeups', 'Malware', 'Medium']
  
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium)
+###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/zerion)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/traffic) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/zerion)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/traffic) 
 
 ### Oh wow, a malware analyst shared a sample that I read about in the news!
 
@@ -34,4 +34,4 @@ All that is left to do now is urldecode the flag:
 
 ![hotp](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/press_flag.png?raw=true)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/zerion)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/traffic) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/zerion)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/traffic) 

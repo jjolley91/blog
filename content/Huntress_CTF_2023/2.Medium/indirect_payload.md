@@ -7,9 +7,9 @@ tags: ['CTF','Writeups', 'Misc', 'Medium']
  
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/)
+###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/babel)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/thumb_drive) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/babel)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/thumb_drive) 
 
 ### We saw this odd technique in a previous malware sample, where it would uncover it's next payload by... well, you'll see.
 
@@ -73,4 +73,4 @@ Or you could do it in one line, like so (Don't forget to replace the 'port' with
 port='11111';url="http://chal.ctf.games:${port}/site/"; for uri in $(wget -nv -O - $url > /dev/null | cut -f 8 -d '"' | grep -E '[0-9a-f]{32}\.php'); do curl -Ss "${url}${uri}" >> flag.txt; done; cat flag.txt | sort -V | grep -o '.$' | tr -d '\n'
 ```
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/babel)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/thumb_drive)
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/babel)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/thumb_drive)

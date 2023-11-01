@@ -7,9 +7,9 @@ tags: ['CTF','Writeups', 'Malware', 'Medium']
  
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/)
+###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/mfatigue)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/mfatigue)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/) 
 
 ### Snake Eater II - Revenge of the Snake Eater
 
@@ -33,4 +33,4 @@ We ran the program while watching process monitor for the exact path for the fla
 ![snake_eaterii](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/snake_eaterii.png?raw=true)
 
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/mfatigue)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/mfatigue)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/) 

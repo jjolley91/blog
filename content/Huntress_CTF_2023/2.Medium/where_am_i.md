@@ -7,9 +7,9 @@ tags: ['CTF','Writeups', 'osint', 'Medium']
  
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/)
+###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/backdoored_splunk)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/operation_not_found) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/backdoored_splunk)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/operation_not_found) 
 
 ### Your friend thought using a JPG was a great way to remember how to login to their private server. Can you find the flag?
 
@@ -26,5 +26,5 @@ Inspecting the output from the command we find some base64 encoding in the Descr
 
 ![where_am_i](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/where_am_i.png?raw=true)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/backdoored_splunk)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/operation_not_found) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/backdoored_splunk)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/operation_not_found) 
 

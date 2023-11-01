@@ -7,9 +7,9 @@ tags: ['CTF','Writeups', 'Forensics', 'Medium']
  
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/)
+###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/rock_paper_psychic)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/babel) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/rock_paper_psychic)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/babel) 
 
 ### You've been asked to audit the Microsoft 365 activity for a recently onboarded as a customer of your MSP.
 
@@ -54,4 +54,4 @@ This caused the flag to be printed in one column!
 
 ![rogue_inbox](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/rogue_inbox.png?raw=true)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/rock_paper_psychic)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/babel) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/rock_paper_psychic)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/babel) 

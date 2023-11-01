@@ -7,9 +7,9 @@ tags: ['CTF','Writeups', 'Malware', 'Medium']
  
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/)
+###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/under_the_bridge)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/tragedy) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/under_the_bridge)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/tragedy) 
 
 ### A threat actor exposed an open directory on the public internet! We could explore their tools for some further intelligence. Can you find a flag they might be hiding?
 
@@ -31,5 +31,5 @@ grep -ri 'flag{'
 
 ![opendir1](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/opendir_flg_2.png?raw=true)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/under_the_bridge)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.Medium/tragedy) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/under_the_bridge)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/tragedy) 
 
