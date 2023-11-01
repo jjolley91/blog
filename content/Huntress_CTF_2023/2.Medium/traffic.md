@@ -24,7 +24,13 @@ For this challenge, we used [Rita](https://github.com/activecm/rita). Once you g
 gunzip ./*
 ```
 
-The files and load them into rita. If we look under Beacons SNI, we see a site that looks suspicious:
+The files and load them into rita dataset, then create a web report with:
+
+```bash
+./rita html_report
+```
+
+If we look under Beacons SNI, we see a site that looks suspicious:
 
 ![traffic1](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/traffic1.png?raw=true)
 
