@@ -9,7 +9,7 @@ tags: ['CTF','Writeups', 'Malware', 'Easy']
 
 ###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Easy Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/1.easy/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/1.easy/book_by_its_cover)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/1.easy/baseFFFF+1) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/1.easy/book_by_its_cover)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/1.easy/baseffff+1) 
 
 ### During the MOVEit Transfer exploitation, there were tons of "indicators of compromise" hashes available for the human2.aspx webshell! We collected a lot of them, but they all look very similar... except for very minor differences. Can you find an oddity? 
 
@@ -37,4 +37,4 @@ grep pass * | grep -v var | egrep -E '.{200,}' | egrep -oE '\"([0-9a-f+"-]+)\"' 
 
 ![human_two](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/human_two.png?raw=true)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/1.easy/query_code)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/1.easy/baseFFFF+1) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/1.easy/query_code)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/1.easy/baseffff+1) 

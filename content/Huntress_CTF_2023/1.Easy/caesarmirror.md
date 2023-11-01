@@ -10,7 +10,7 @@ tags: ['CTF','Writeups', 'Warmups', 'Easy']
 
 ###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Easy Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/1.easy/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/1.easy/baseFFFF+1)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/1.easy/i_wont_let_you_down) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/1.easy/baseffff+1)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/1.easy/i_wont_let_you_down) 
 
 ### Caesar caesar, on the wall, who is the fairest of them all?
 
@@ -132,4 +132,4 @@ extent?? Someone get that Julius
 Caesar guy a medal! 
  ```
 
- ## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/1.easy/baseFFFF+1)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/1.easy/i_wont_let_you_down) 
+ ## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/1.easy/baseffff+1)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/1.easy/i_wont_let_you_down) 

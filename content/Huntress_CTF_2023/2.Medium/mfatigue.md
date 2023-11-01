@@ -9,7 +9,7 @@ tags: ['CTF','Writeups', 'Misc', 'Medium']
 
 ###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/bad_memory)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/snake_eaterII) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/bad_memory)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/snake_eaterii) 
 
 ### We got our hands on an NTDS file, and we might be able to break into the Azure Admin account! Can you track it down and try to log in? They might have MFA set up though...
 
@@ -52,4 +52,4 @@ However, if we remember the name of this challenge, we can keep sending push not
 ![mfatigue3](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/mfatigue3.png?raw=true)
 
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/bad_memory)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/snake_eaterII)
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/bad_memory)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/snake_eaterii)
