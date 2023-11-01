@@ -7,9 +7,9 @@ tags: ['CTF','Writeups', 'Malware', 'Hard']
  
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Hard Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/3.Hard/)
+###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Hard Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/3.hard/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/3.Hard/crab_rave)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/3.Hard) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/3.hard/crab_rave)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/3.hard) 
 
 ### Be advised analyst: BlackCat is back! And they're mad. Very mad. Help our poor user recover the images that they downloaded while browsing their favorite art site. Quickly!
 

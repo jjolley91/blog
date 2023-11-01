@@ -7,9 +7,9 @@ tags: ['CTF','Writeups', 'Forensics', 'Hard']
  
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Hard Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/3.Hard/)
+###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Hard Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/3.hard/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/3.Hard)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/3.Hard/crab_rave) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/3.hard)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/3.hard/crab_rave) 
 
 ### Ugh! One of our users was trying to install a Texas Chainsaw Massacre video game, and installed malware instead. Our EDR detected a rogue process reading and writing events to the Application event log. Luckily, it killed the process and everything seems fine, but we don't know what it was doing in the event log.
 
@@ -78,4 +78,4 @@ We receive a base64 encoded string which we can decode to retrieve the flag!
 .zip TLDs are a recent phenomenon, if you would like to learn more about them, you should check out [Seytonic's Video](https://www.youtube.com/watch?v=LFriS1PICE0)!
 
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/3.Hard)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/3.Hard/crab_rave) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/3.hard)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/3.hard/crab_rave) 

@@ -7,9 +7,9 @@ tags: ['CTF','Writeups', 'Malware', 'Hard']
  
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Hard Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/3.Hard/)
+###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Hard Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/3.hard/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/3.Hard/chainsaw_massacre)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/3.Hard/blackcatii) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/3.hard/chainsaw_massacre)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/3.hard/blackcatii) 
 
 ### My biologist friend told me that everything eventually evolves into a crab-like form. I don't know if that's true but I guess malware authors got a head start on that evolution. To save you some time, I went ahead and found you the 10 hour extended version of Crab Rave on YouTube (https://www.youtube.com/watch?v=-50NdPawLVY). You'll need it.
 
@@ -74,4 +74,4 @@ Regular_expression('User defined','flag\\{[a-f0-9]+\\}',true,true,false,false,fa
 
 
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/3.Hard/chainsaw_massacre)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/3.Hard/blackcatii) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/3.hard/chainsaw_massacre)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/3.hard/blackcatii) 
