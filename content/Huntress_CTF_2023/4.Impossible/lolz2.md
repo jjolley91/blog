@@ -9,7 +9,7 @@ tags: ['CTF', 'Writeups', 'Impossible Difficulty', 'Extreme']
 
 ###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Impossible Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/3.Hard/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/4.Impossible)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/4.Impossible/lolz3) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/4.impossible)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/4.impossible/lolz3) 
 
 * Please note that this challenge was a community effort and much of the content in this writeup is attributed to findings from the public discourse.
 
@@ -88,4 +88,4 @@ By CE Bt Bz CT Bw BA BB Bv Bu BA Bu Ay Aw BB BD Aw By Bx BE Az By Aw Az Bv By BF
  f  l  a  g  {  d  4  5  c  b  4  b  2  0  5  7  0  f  e  8  3  f  0  3  c  f  9  2  e  7  6  8  b  d  0  f  b  }
 ```
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/4.Impossible)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/4.Impossible/lolz3) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/4.impossible)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/4.impossible/lolz3) 
