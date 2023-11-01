@@ -19,19 +19,18 @@ tags: ['CTF','Writeups', 'Forensics', 'Medium']
 
 Here we are given 'traffic.7z' to download and extract.
 
-For this challenge, we used [Rita](https://github.com/activecm/rita).
-
-I borked my linux vm and was unable to grab a screenshot for this one, once I get it back up I will come back and fix this writeup.
-
-Overall, Once you get Rita installed, you just need to 
+For this challenge, we used [Rita](https://github.com/activecm/rita). Once you get Rita installed, you just need to 
 ```bash
 gunzip ./*
 ```
 
-The files and load them into rita, then you can simply search for the flag!
+The files and load them into rita. If we look under Beacons SNI, we see a site that looks suspicious:
 
-![traffic](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/traffic.png?raw=true)
+![traffic1](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/traffic1.png?raw=true)
 
+Visiting the sketchy site we can retrieve the flag!
+
+![traffic2](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/traffic2.png?raw=true)
 
 ## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/hot_off_the_press)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/backdoored_splunk) 
 
