@@ -9,7 +9,7 @@ tags: ['CTF','Writeups', 'Forensics', 'Medium']
 
 ###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/batchfuscation)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/mfatigue) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/batchfuscation)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/mfatigue) 
 
 ### A user came to us and said they forgot their password. Can you recover it? The flag is the MD5 hash of the recovered password wrapped in the proper flag format.
 
@@ -35,4 +35,4 @@ The challenge says to get the flag, we need the md5sum of the password wrapped i
 
 ![bad_memory2](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/bad_memory2.png?raw=true)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/batchfuscation)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/mfatigue) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/batchfuscation)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/mfatigue) 

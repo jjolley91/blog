@@ -9,7 +9,7 @@ tags: ['CTF','Writeups', 'osint', 'Medium']
 
 ###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/where_am_i)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/under_the_bridge) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/where_am_i)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/under_the_bridge) 
 
 ### In the boundless web of data, some corners echo louder than others, whispering tales of innovation, deep knowledge, and fierce competition. On the lush landscapes of https://osint.golf/, a corner awaits your discovery... where intellect converges with spirit, and where digital foundations stand alongside storied arenas.
 
@@ -24,4 +24,4 @@ The search result immedately returned a picture of the building and named it the
 
 ![onf1](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/operation2.png?raw=true)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/where_am_i)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/under_the_bridge) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/where_am_i)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/under_the_bridge) 

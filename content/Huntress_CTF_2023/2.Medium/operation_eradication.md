@@ -9,7 +9,7 @@ tags: ['CTF','Writeups', 'Misc', 'Medium']
 
 ###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/thumb_drive)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/speakfriend) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/thumb_drive)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/speakfriend) 
 
 ### Oh no! A ransomware operator encrypted an environment, and exfiltrated data that they will soon use for blackmail and extortion if they don't receive payment! They stole our data!
 
@@ -47,4 +47,4 @@ We can return to the home page and retrieve the flag!
 
 ![operation_eradication2](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/operation_eradication.png?raw=true)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/thumb_drive)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/speakfriend) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/thumb_drive)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/speakfriend) 

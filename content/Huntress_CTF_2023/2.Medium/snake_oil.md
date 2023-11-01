@@ -9,7 +9,7 @@ tags: ['CTF','Writeups', 'Malware', 'Medium']
 
 ###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/rat)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/batchfuscation) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/rat)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/batchfuscation) 
 
 ### One of our workstations was exhibiting strange network communications... we found this binary that looked to be the culprit. Can you find anything suspicious?
 
@@ -75,4 +75,4 @@ We uploaded the file to an online tool: [hybrid-analysis](https://www.hybrid-ana
 
 ![snake_oil](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/snake-oil.png?raw=true)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/rat)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/batchfuscation) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/rat)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/batchfuscation) 

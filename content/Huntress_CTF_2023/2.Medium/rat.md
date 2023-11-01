@@ -9,7 +9,7 @@ tags: ['CTF','Writeups', 'Malware', 'Medium']
 
 ###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/speakfriend)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/snake_oil) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/speakfriend)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/snake_oil) 
 
 ###  I was arguing with a co-worker on whether or not it is "Remote Access Tool" or "Remote Access Trojan", and he didn't agree with me, so I sent him this shady file ;) 
 
@@ -63,4 +63,4 @@ The easier method was to upload the sha526 hash to Virus total and inspect the '
 
 ![rat2](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/rat.png?raw=true)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/speakfriend)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/snake_oil) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/speakfriend)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/snake_oil) 

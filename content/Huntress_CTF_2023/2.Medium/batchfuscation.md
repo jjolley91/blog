@@ -9,7 +9,7 @@ tags: ['CTF','Writeups', 'Malware', 'Medium']
 
 ###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/snake_oil)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/bad_memory) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/snake_oil)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/bad_memory) 
 
 ### I was reading a report on past Trickbot malware, and I found this sample that looks a lot like their code! Can you make any sense of it?
 
@@ -115,4 +115,4 @@ Then run the file like so:
 ####  Tried and true hacker technique: [DOS obfuscation](https://www.huntress.com/blog/tried-and-true-hacker-technique-dos-obfuscation ) .Hammond, J. (n.d.). 
 
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/snake_oil)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/bad_memory)
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/snake_oil)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/bad_memory)

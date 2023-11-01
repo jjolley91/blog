@@ -9,7 +9,7 @@ tags: ['CTF','Writeups', 'Malware', 'Medium']
 
 ###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/operation_eradication)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/rat) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/operation_eradication)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/rat) 
 
 ### It seems like this website was compromised. We found this file that seems to be related... can you make any sense of these and uncover a flag?
 
@@ -36,4 +36,4 @@ curl -k -L -A 'Mozilla/5.0 93bed45b-7b70-4097-9279-98a4aef0353e' https://chal.ct
 
 ![speakfriend2](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/speakfriend2.png?raw=true)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/operation_eradication)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/rat) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/operation_eradication)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/rat) 

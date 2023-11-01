@@ -9,7 +9,7 @@ tags: ['CTF','Writeups', 'Forensics', 'Medium']
 
 ###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Medium Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/opendir)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/rock_paper_psychic) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/opendir)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/rock_paper_psychic) 
 
 ### We found this file as part of an attack chain that seemed to manipulate file contents to stage a payload. Can you make any sense of it?
 
@@ -109,4 +109,4 @@ We utilized an [online compiler](https://onecompiler.com/vb), and recieved an ou
 
 ![tragedy](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/tragedy.png?raw=true)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/opendir)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/rock_paper_psychic)
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/opendir)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/2.medium/rock_paper_psychic)
