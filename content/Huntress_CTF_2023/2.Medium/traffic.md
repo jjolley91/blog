@@ -30,7 +30,7 @@ The files and load them into rita dataset, then create a web report with:
 ./rita html_report
 ```
 
-If we look under Beacons SNI, we see a site that looks suspicious:
+If we look under Beacons SNI,  and take a hint from the challenge about the `sketchy site`we see something that stands out as suspicious:
 
 ![traffic1](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/traffic1.png?raw=true)
 
