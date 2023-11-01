@@ -6,9 +6,9 @@ tags: ['CTF', 'Writeups', 'Impossible Difficulty', 'Extreme']
 ---
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Impossible Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/3.Hard/)
+###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Impossible Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/4.impossible/)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/4.impossible/lolz3)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/4.impossible/lolz5) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/4.impossible/lolz3)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/4.impossible) 
 
 * Please note that this challenge was a community effort and much of the content in this writeup is attributed to findings from the public discourse.
 
@@ -41,4 +41,4 @@ After trying a number of steganography extraction tools, we were eventually succ
 
 ![lolz4_5](https://github.com/jjolley91/blog/blob/main/static/Huntress_CTF_2023/lolz4_5.png?raw=true)
 
-## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/4.impossible/lolz3)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/4.impossible/lolz5) 
+## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/4.impossible/lolz3)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/4.impossible) 

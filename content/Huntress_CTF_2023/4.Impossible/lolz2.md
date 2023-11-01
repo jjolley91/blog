@@ -7,7 +7,7 @@ tags: ['CTF', 'Writeups', 'Impossible Difficulty', 'Extreme']
 
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Impossible Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/3.Hard/)
+###  [Huntress CTF](https://jjolley91.github.io/blog/huntress_ctf_2023) >  [Impossible Challenges](https://jjolley91.github.io/blog/huntress_ctf_2023/4.impossible/)
 
 ## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/4.impossible)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/4.impossible/lolz3) 
 
