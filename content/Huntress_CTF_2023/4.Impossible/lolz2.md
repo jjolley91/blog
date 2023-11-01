@@ -1,6 +1,6 @@
 ---
 title: "lolz#2"
-date: -
+date: 2023-10-09T13:11:20-10:01
 #draft: true
 tags: ['CTF', 'Writeups', 'Impossible Difficulty', 'Extreme']
 ---

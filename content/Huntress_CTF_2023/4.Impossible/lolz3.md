@@ -1,6 +1,6 @@
 ---
 title: "lolz#3"
-date: -
+date: 2023-10-09T13:11:20-10:01
 #draft: true
 tags: ['CTF', 'Writeups', 'Impossible Difficulty', 'Extreme']
 ---
@@ -11,9 +11,6 @@ tags: ['CTF', 'Writeups', 'Impossible Difficulty', 'Extreme']
 
 ## [Back](https://jjolley91.github.io/blog/huntress_ctf_2023/4.Impossible/lolz2)  <> [Next](https://jjolley91.github.io/blog/huntress_ctf_2023/4.Impossible/lolz4) 
 
-* Please note that this challenge was a community effort and much of the content in this writeup is attributed to findings from the public discourse.
-
-### 
 
 * Please note that this challenge was a community effort and much of the content in this writeup is attributed to findings from the public discourse.
 
