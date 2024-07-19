@@ -16,7 +16,7 @@ tags: ['CTF','Writeups','Cryptography','Warmups','Easy']
 
 To get the flag here we simply need to base64 decode followed by base32 decode the payload to get the flag!
 
-![base_level](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/base_level.png?raw=true)
+![base_level](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/base_level.png?raw=true)
 
 
 
