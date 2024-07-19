@@ -7,9 +7,9 @@ tags: ['CTF','Writeups','Cryptography','Medium','Written_by_me']
 
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Crypto](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/)
+###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Crypto](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/crypto/)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/word_salad)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/cipher_pudding)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/crypto/word_salad)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/crypto/cipher_pudding)
 
 ### On to the second course, pasta filiformis with a tangy reduction. Save room for dessert!
 
@@ -28,4 +28,4 @@ The steps to solve this one are:
 ![pasta_filiformis](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/pasta_filiformis.png?raw=true)
 
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/word_salad)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/cipher_pudding)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/crypto/word_salad)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/crypto/cipher_pudding)

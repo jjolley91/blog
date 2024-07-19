@@ -7,9 +7,9 @@ tags: ['CTF','Writeups','Cryptography','Medium','Written_by_me']
 
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Crypto](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/)
+###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Crypto](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/crypto/)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/pasta_filiformis)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/bits_abound)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/crypto/pasta_filiformis)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/crypto/bits_abound)
 
 ### Wings for dessert? But it's good to the last byte.
 ```
@@ -31,4 +31,4 @@ The rest can be decoded in [Cyberchef](https://cyberchef.org/) using the followi
 ![cipher_pudding_2](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/cipher_pudding_2.png?raw=true)
 
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/pasta_filiformis)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/bits_abound)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/crypto/pasta_filiformis)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/crypto/bits_abound)

@@ -7,9 +7,9 @@ tags: ['CTF','Writeups','Cryptography','Medium','Written_by_me']
 
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Crypto](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/)
+###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Crypto](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/crypto/)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/bits_abound)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/crypto/bits_abound)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/)
 
 ### Getting it out is the easy part, but good luck getting in.
 
@@ -43,4 +43,4 @@ Finally, we can use the cracked password to open the PDF and get the flag:
 
 ![rock_on_4](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/rock_on_4.png?raw=true)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/bits_abound)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/crypto/bits_abound)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/)

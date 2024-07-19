@@ -7,9 +7,9 @@ tags: ['CTF','Writeups','Cryptography','Medium','Steganography']
 
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Crypto](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/)
+###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Crypto](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/crypto/)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/cipher_pudding)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/rock_on)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/crypto/cipher_pudding)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/crypto/rock_on)
 
 ### I have a key with a curious code etched into it but not a clue where it goes. Here, take a look and let me know if you discover anything even the least bit significant about it.
 
@@ -39,4 +39,4 @@ This looks like base64, and it does seem to decode, but not into a flag. We are 
 ![bits_abound](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/bits_abound.png?raw=true)
 
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/cipher_pudding)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/rock_on)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/crypto/cipher_pudding)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/crypto/rock_on)
