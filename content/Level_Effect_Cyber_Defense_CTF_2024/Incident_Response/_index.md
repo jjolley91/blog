@@ -1,0 +1,8 @@
+---
+title: Incident Response Challenges
+date: 2024-07-01T13:11:20-10:01
+tags: ['CTF','Writeups','Incident_Response']
+---
+# Incident Response Challenges
+ 
+#### "I am the One Who Responds."
