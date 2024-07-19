@@ -23,7 +23,7 @@ grep -Rv '39 6d 62 47' haystack | cut -d':' -f2 | xxd -r -p | base64 -d && echo
 ```
 
 
-![haystack](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/haystack.png?raw=true)
+![haystack](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/haystack.png?raw=true)
 
 
 ## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/catch_the_bandit)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/motw)

@@ -19,7 +19,7 @@ tags: ['CTF','Writeups','Incident_Response','Easy', 'Medium']
 
 For this challenge, we can simply upload the given hash to [VirusTotal](https://www.virustotal.com/gui/file/b1f2068201c29f3b00aeedc0911498043d7c204a860ca16b3fef47fc19fc2b22) And find the malware family in the results. Pretty straightforward.
 
-![newws_flash_1](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/newws_flash_1.png?raw=true)
+![newws_flash_1](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/newws_flash_1.png?raw=true)
 
 
 
@@ -30,7 +30,7 @@ For this challenge, we can simply upload the given hash to [VirusTotal](https://
 We can follow the same process for this challenge as in Newws Flash 1, Upload the hash to [VirusTotal](https://www.virustotal.com/gui/file/b1f2068201c29f3b00aeedc0911498043d7c204a860ca16b3fef47fc19fc2b22/behavior), and view the results. This time, we need to go to the 'Behavior' tab, and look for the the 'Registry Keys Set' section and find the name of the file it creates in the HKCU Registry Run key.
 
 
-![newws_flash_2](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/newws_flash_2.png?raw=true)
+![newws_flash_2](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/newws_flash_2.png?raw=true)
 
 
 ## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Incident_Response/)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Incident_Response/autoruns_1_5)

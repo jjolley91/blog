@@ -17,7 +17,7 @@ tags: ['CTF','Writeups','Networking','Hard']
 
 For this challenge, we are given xfil.pcap to download and inspect. Upon initial inspection it seems like we have a lot of http traffic which is mostly GET requests to various directories on the webserver, and we can tell by the user-agent string that this was being automated with python. There is also a post request which stands out with the string "You'll probably need these". The post request is to /login and there are some interesting strings in the username and password fields:
 > {"username": "3e1d1f4c8a7b456a9f4d5b3f2c6e8a1d", "password": "5b8e2a27dc43bc967c435a7c8c3ab0fc5294b4c0a27c68719a621f0348be5c1a"}
-![drip_drop_1](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/drip_drop_1.png?raw=true)
+![drip_drop_1](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/drip_drop_1.png?raw=true)
 
 This looks like an AES decryption key, and an IV, so we can put that aside for later until we can find the paylodad to decrypt.
 
@@ -25,7 +25,7 @@ The next step is to pull out 20-30% of your hair looking for the payload. There 
 
 The data in all of the ICMP packets is the same, and cannot be decrypted using the found keys, so this is a dead end. Looking around for anything which is unique between packets we can eventually see that the only thing which seems to stand out as unique to each packet is the time...
 
-![drip_drop_2](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/drip_drop_2.png?raw=true)
+![drip_drop_2](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/drip_drop_2.png?raw=true)
 
 There does seem to be a pattern here to investigate.
 Note: I had my time set to seconds since last displayed packet.
@@ -37,7 +37,7 @@ Since this is data Exfiltration, we can try looking at it through the lense of o
 > icmp.type==8
 
 After applying that filter the time delta looks a lot more like usable binary.
-![drip_drop_3](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/drip_drop_3.png?raw=true)
+![drip_drop_3](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/drip_drop_3.png?raw=true)
 
 We can begin extracting the values to proceed using tshark:
 
@@ -47,7 +47,7 @@ We can begin extracting the values to proceed using tshark:
 
 After runng these commands to clean up the data a little bit we get:
 
-![drip_drop_4](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/drip_drop_4.png?raw=true)
+![drip_drop_4](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/drip_drop_4.png?raw=true)
 
 We know the time difference between packets is ~0.5-1.5 seconds, so we can use a python script to subtract each pair of values, and append the difference to a file to check:
 
@@ -84,7 +84,7 @@ Finally! The resulting binary actually decodes to valid hex!
 
 At long last, we can use our keys for decryption and retrieve the flag!
 
-![drip_drop_final](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/drip_drop_final.png?raw=true)
+![drip_drop_final](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/drip_drop_final.png?raw=true)
 
 ## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/networking/et_tu_brute)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/crypto/)
 

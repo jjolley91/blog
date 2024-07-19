@@ -28,7 +28,7 @@ which is Portugese, and translates to: "Your link will expire soon"
 We also have an ipaddress from the original sender: 193[.]217.1.27, which we can check with [Domain Dossier](https://centralops.net/co/domaindossier.aspx), and look at the network whois record to reveal the country code: LT, which can be googled to find the answer: Lithuania
 
 
-![out_phishing](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/out_phishing.png?raw=true)
+![out_phishing](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/out_phishing.png?raw=true)
 
 
 ## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Email_Security/safe_for_emails)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Email_Security/2045th_trick_in_the_book)

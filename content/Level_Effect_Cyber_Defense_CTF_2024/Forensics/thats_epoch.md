@@ -20,7 +20,7 @@ For this challenge we simply need to convert the given epoch timestamp into it's
 date -u -d @1721387471
 ```
 
-![thats_epoch](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/thats_epoch.png?raw=true)
+![thats_epoch](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/thats_epoch.png?raw=true)
 
 Simply wrap the flag in the leveleffect{} wrapper in the way described and that's it!
 

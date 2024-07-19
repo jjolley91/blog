@@ -21,7 +21,7 @@ For this challenge, we are given a flag.ps1 file and a GetFlag shortcut file to 
 
 The flag.ps1 contains some obfuscated powershell. After some deobfuscation we can see that it takes an input parameter, and is comparing the sha256 value against a hardcoded value. If it matches, it uses that as part of the key to aes decrypt the flag. It is also checking to see if there is an environment variable set to the hardcoded value, which base64 decodes to 'sesame'. If these conditions are met, the decrypted flag gets printed:
 
-![shortcut1](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/shortcut1.png?raw=true)
+![shortcut1](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/shortcut1.png?raw=true)
 
 Honestly, I simply base64 decoded the environment variable and was able to guess the input value was supposed to be 'open'. However, you could also take the hash given and crack it using your method of choice. [Crackstation](https://crackstation.net/) would do the trick as well.
 
@@ -33,7 +33,7 @@ $env:P2 = "sesame"
 and then run the flag.ps1 file with the input 'open' to retrieve the flag:
 
 
-![shortcut2](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/shortcut2.png?raw=true)
+![shortcut2](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/shortcut2.png?raw=true)
 
 
 

@@ -21,7 +21,7 @@ For this one, we are given http-traffic.pcap to download and inspect. Upon inves
 
 From the result, we can see one that stands out is the one with the 302- Found response. Following the stream from there gives us the flag in the password field. We can wrap it in the leveleffect{} wrapper as instructed and submit the flag.
 
-![et_tu_brute](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/et_tu_brute.png?raw=true)
+![et_tu_brute](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/et_tu_brute.png?raw=true)
 
 
 ## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/networking/signed_and_secured)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/networking/drip_drop)

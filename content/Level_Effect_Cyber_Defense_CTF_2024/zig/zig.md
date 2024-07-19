@@ -18,7 +18,7 @@ tags: ['CTF','Writeups','Incident_Response','Reversing','Easy','Medium','Hard','
 
 For this challenge, we simply need to run the Zig.exe on the workstation, and try the responses until we find that one response gives us extra time before the reboot. This is option 2 and is the same option as the name of the challenge. I will also note that entering anything other than the 4 pre-programmed responses causes the program to exit immediately.
 
-![what_you_say](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/what_you_say.png?raw=true)
+![what_you_say](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/what_you_say.png?raw=true)
 
 
 ## #2 Gimme _____ Checks Towards the Door! (Easy)
@@ -27,7 +27,7 @@ For this challenge, we simply need to run the Zig.exe on the workstation, and tr
 
 For the next answer, we can run the zig.exe and notice that the program does 3 systems checks before presenting the options. This gives us our answer: 3.
 
-![checks_toward_the_door](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/checks_toward_the_door.png?raw=true)
+![checks_toward_the_door](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/checks_toward_the_door.png?raw=true)
 
 
 ## #3 Save zig move zig (Easy)
@@ -38,7 +38,7 @@ This challenge is where the binary triage really begins. After the zig.exe respo
 
 We can quickly find an HKCU Registry run key named "MyApp" which is pointing to a rundlll32.exe binary in the C:\Windows directory. This is an attempt at masquerading, as the legitimate windows binary should be rundll32.exe. We can proceed to the directory and dump the strings on this to continue the investigation.
 
-![my_app](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/my_app.png?raw=true)
+![my_app](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/my_app.png?raw=true)
 
 Dump strings:
 
@@ -48,14 +48,14 @@ strings.exe .\rundlll32.exe > rundlll_strings.txt
 
 After inspecting the strings we find a reference to C:\Windows\base.out which, when inspected, appears to be the output of a keylogger which is recording each user keystroke.
 
-![base_out](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/base_out.png?raw=true)
+![base_out](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/base_out.png?raw=true)
 
 There is not much else helpful in the strings of the rundlll binary for now, so we can turn our attention back to autoruns and look to see if there is anything else we might have missed. After a closer inspection, we find a scheduled task named "ScreenSaver", which is running Windows powershell and calling a script "C:\ProgramData\movezig.ps1"
 
 This gives us the the flag for the challenge, as the name which is calling the zig mover is: 'ScreenSaver'.
 
 
-![screen_saver](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/screen_saver.png?raw=true)
+![screen_saver](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/screen_saver.png?raw=true)
 
 
 ## #4 Keylogger Out #1 (Medium)
@@ -89,7 +89,7 @@ To answer this question, we can continue our investigation and analyze the movez
 
 Opening this script in notepad++ we see the script is trying to execute a PUT request of the base.out file to: leveleffectgotallyourbaase.com
 
-![your_base_my_base](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/your_base_my_base.png?raw=true)
+![your_base_my_base](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/your_base_my_base.png?raw=true)
 
 
 ## #8 Where Did I Come From? (Hard)
@@ -102,7 +102,7 @@ For this challenge, we need to go back to the original zig.exe binary. We can tr
 https[:]//cda-lab-data.s3.amazonaws.com/FAQingFriday/rundlll32.exe
 ```
 
-![where_did_i_come_from](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/where_did_i_come_from.png?raw=true)
+![where_did_i_come_from](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/where_did_i_come_from.png?raw=true)
 
 
 
@@ -114,7 +114,7 @@ https[:]//cda-lab-data.s3.amazonaws.com/FAQingFriday/rundlll32.exe
 
 For this challenge, we again, can go back and inspect the strings dumped from the rundlll32.exe binary. If we look for more .out files, we find a file in a different directory: C:\Program Files\WindowsPowerShell\misdirection.out
 
-![logger_2](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/logger_2.png?raw=true)
+![logger_2](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/logger_2.png?raw=true)
 
 Sure enough, if we inspect the misdirection.out, it is a second keylogger output file.
 
@@ -133,7 +133,7 @@ However, to reduce the file size most developers will also remove the function n
 
 I spent a lot of time with the Zig.exe binary only to come up empty handed. I then remembered we had another binary that could be inspected: rundlll32.exe. Decompiling the main.main function shows that it calls a function main.main.func1, The answer to our question can be found there, as it listens for keyboard inputs and takes an action if they are equal to the string: helpmeobiwan. 
 
-![help_me](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/help_me.png?raw=true)
+![help_me](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/help_me.png?raw=true)
 
 
 
@@ -145,7 +145,7 @@ I will be honest, I solved this one by actually lamenting at this challenge.
 
 However, we can find a reference to it in the strings of the rundlll32.exe binary.
 
-![lament](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/lament.png?raw=true)
+![lament](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/lament.png?raw=true)
 
 
 Flag: noooooo

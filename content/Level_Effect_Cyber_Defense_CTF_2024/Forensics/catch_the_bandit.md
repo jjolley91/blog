@@ -27,13 +27,13 @@ If we run the binary, nothing seems to happen. However, we can use Procmon and o
 These are a few examples. 
 
 
-![bandit_1](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/bandit_1.png?raw=true)
+![bandit_1](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/bandit_1.png?raw=true)
 
 We can quickly see that the flag.txt file is being repeatedly written and deleted to the path C:\Users\\%Username%\AppData\Roaming\flag.txt
 
 All we need to do now is recover the file and retrieve the flag! There are many ways to do this but a simple method would be to simply suspend the bandit.exe process in ProcExplorer, and then simply open the file to retrieve the flag!
 
-![bandit_2](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/bandit_2.png?raw=true)
+![bandit_2](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/bandit_2.png?raw=true)
 
 
 

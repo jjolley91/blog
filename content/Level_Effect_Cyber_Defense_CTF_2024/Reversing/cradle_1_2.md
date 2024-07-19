@@ -65,6 +65,6 @@ We can see they have added a few extra steps to their obfuscation techniques, ho
 
 We can paste each of the variables from here, which are delineated by a semi-colon ';' directly into powershell stopping before the iex section and receive the flag!
 
-![cradle_2](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/cradle_2.png?raw=true)
+![cradle_2](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/cradle_2.png?raw=true)
 
 ## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/flag_worthy)

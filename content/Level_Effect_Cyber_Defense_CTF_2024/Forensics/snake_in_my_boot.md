@@ -23,7 +23,7 @@ we can run the binary now and see that it is, indeed, a small game of snake. If 
 ```txt
 Nice job getting this far, you're a pro! However, there is a shorter path to victory... https://rb.gy/7i3c9d
 ``` 
-![snek_1](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/snek_1.png?raw=true)
+![snek_1](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/snek_1.png?raw=true)
 
 If we look at the url, it does provide a hint into what the correct step to get the flag is...
 
@@ -31,6 +31,6 @@ If we look at the url, it does provide a hint into what the correct step to get 
 strings snek | grep leveleffect
 ```
 
-![snek_2](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/snek_2.png?raw=true)
+![snek_2](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/snek_2.png?raw=true)
 
 ## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/thats_epoch)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/double_take)

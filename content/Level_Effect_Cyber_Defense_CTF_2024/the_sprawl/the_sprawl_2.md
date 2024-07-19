@@ -27,7 +27,7 @@ We can dump the strings on the binary, and scrolling through, we see a string: `
 
 ##### Note: This flag needed to be put inside the leveleffect{} wrapper to be accepted.
 
-![sprawl_2_1](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/sprawl_2_1.png?raw=true)
+![sprawl_2_1](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/sprawl_2_1.png?raw=true)
 
 ## Sprawl2 Part 2 - Help is Provided (Medium)
 
@@ -38,7 +38,7 @@ I dont think I solved the rest of these in the intended way, but I will go throu
 
 For the second and third challenge, I decompiled the binary in Ghidra, and found the next two flags inside the strings: 
 
-![sprawl_2_2_and_3_flags](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/sprawl_2_2_and_3_flags.png?raw=true)
+![sprawl_2_2_and_3_flags](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/sprawl_2_2_and_3_flags.png?raw=true)
 ## Sprawl2 Part 3 - Delete Soul (Hard)
 
 ### At this point you should be familiar with who you are dealing with. Look up what they want to ultimately achieve. You have a hint on how to configure it by now if you decrypted the previous message.
@@ -47,7 +47,7 @@ Same as above for this one, The flag was in the strings I found inside Ghidra:
 
 Also of note, these were present in the strings dump of the binary, I just didnt look for them...
 
-![sprawl_2_3](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/sprawl_2_3.png?raw=true)
+![sprawl_2_3](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/sprawl_2_3.png?raw=true)
 
 
 ## Sprawl2 Part 4 - Memories of it All (Hard)
@@ -56,12 +56,12 @@ Also of note, these were present in the strings dump of the binary, I just didnt
 
 Still looking in Ghidra, we see some hex strings being concatenated:
 
-![sprawl_2_4_hex](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/sprawl_2_4_hex.png?raw=true)
+![sprawl_2_4_hex](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/sprawl_2_4_hex.png?raw=true)
 
 
 we can decode these, and reverse them, and piece them back together to retrieve the final flag:
 
-![sprawl_2_4_decode](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/sprawl_2_4_decode.png?raw=true)
+![sprawl_2_4_decode](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/sprawl_2_4_decode.png?raw=true)
 
 ##### Note: This flag needed to be put inside the leveleffect{} wrapper to be accepted.
 

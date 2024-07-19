@@ -22,7 +22,7 @@ tags: ['CTF','Writeups','Email_Security','Medium']
 
 We can paste this into [Cyberchef](https://cyberchef.org/) and use the 'magic' recipe to get the flag for this one!
 
-![trick_in_the_book](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/trick_in_the_book.png?raw=true)
+![trick_in_the_book](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/trick_in_the_book.png?raw=true)
 
 
 ## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Email_Security/out_phishing)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Log_analysis/)

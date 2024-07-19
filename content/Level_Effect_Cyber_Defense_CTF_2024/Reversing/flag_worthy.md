@@ -24,7 +24,7 @@ Here, we are given another powershell script which has been obfuscated. If we pa
 However, if we look at the text above, we can see that it still prints the flag... well, okay then! 
 
 
-![flag_worthy](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/flag_worthy.png?raw=true)
+![flag_worthy](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/flag_worthy.png?raw=true)
 
 
 ## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/cradle_1_2)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/shortcut)

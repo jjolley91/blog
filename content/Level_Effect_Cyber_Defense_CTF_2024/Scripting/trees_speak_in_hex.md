@@ -54,7 +54,7 @@ hashes_set = read_hashes(iocs_file)
 total_hashes_count = count_total_hashes(directory_path, hashes_set)
 print(f"Total number of hashes found in the files: {total_hashes_count}")
 ```
-![hex](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/hex.png?raw=true)
+![hex](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/hex.png?raw=true)
 
 
 ## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Scripting/hay_in_a_needlestack)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/)

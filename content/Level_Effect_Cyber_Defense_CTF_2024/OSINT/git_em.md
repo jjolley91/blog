@@ -30,7 +30,7 @@ To Шадоу
 ```
 For this challenge, we are given an intercepted communication, all we need however is the username to begin the investigation. If we take the name of the challenge as a hint we can quickly find a username that matches the one given as well as a repo:'SuperSecretProject'. We can read through some of the files and see their plan for goodcorp laid out, but no flag. If you translated the Russian you might learn that the 'critical information' has been removed. If we look at the commit history and go back to the first entry, sure enough we get the flag.
 
-![git_em](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/git_em.png?raw=true)
+![git_em](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/git_em.png?raw=true)
 
 
 ## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/osint/insanity_check_2)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/networking/)

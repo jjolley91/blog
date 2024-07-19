@@ -22,7 +22,7 @@ Upon inspection, we can see some http traffic. However, these only lead to dead 
 Filter:
 > tls.handshake.type==11
 
-![signed_and_secured](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/signed_and_secured.png?raw=true)
+![signed_and_secured](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/signed_and_secured.png?raw=true)
 
 
 ## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/networking/ask_and_rcv_1_2_3)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/networking/et_tu_brute)

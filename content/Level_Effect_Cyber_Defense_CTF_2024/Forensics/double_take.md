@@ -20,7 +20,7 @@ The trick to get the flag for this one is that you need to run the strings comma
 strings -e l doubletake.jpg | base64 -d
 ```
 
-![doubletake](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/doubletake.png?raw=true)
+![doubletake](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/doubletake.png?raw=true)
 
 
 ## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/snake_in_my_boot)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/catch_the_bandit)

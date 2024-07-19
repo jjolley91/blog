@@ -37,11 +37,11 @@ privilege::debug
 lsadump::sam
 ```
 
-![crimson_initate_1](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/crimson_initate_1.png?raw=true)
+![crimson_initate_1](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/crimson_initate_1.png?raw=true)
 
 Now that we have the NTLM hash all we need to do is crack it using your software of choice. I went with [Crackstation](https://crackstation.net/) for this, which cracked the hash without any issue, since it was a weak password.
 
-![crimson_initate_2](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/crimson_initate_2.png?raw=true)
+![crimson_initate_2](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/crimson_initate_2.png?raw=true)
 
 
 #### Note: This flag does not need to be in the leveleffect{} wrapper.

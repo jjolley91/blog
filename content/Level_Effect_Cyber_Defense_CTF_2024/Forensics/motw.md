@@ -24,7 +24,7 @@ Get-Content -Path ".\forest_stream.jpg" -Stream Zone.Identifier
 ````
 All that's left to do is url decode and submit the flag!
 
-![motw](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/motw.png?raw=true)
+![motw](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/motw.png?raw=true)
 
 
 ## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/haystack)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/puzzle_pieces) 

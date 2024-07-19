@@ -19,7 +19,7 @@ To get the flag for this first challenge you simply need to connect to the webse
 
 > nc 0.cloud.chals.io 24194
 
-![ask_and_recv_1](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/ask_and_recv_1.png?raw=true)
+![ask_and_recv_1](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/ask_and_recv_1.png?raw=true)
 
 
 ## Ask and You Shall Recv 2
@@ -40,7 +40,7 @@ Note, you will need to change the permissions on the key in order to get it to w
 
 > ssh -i p2.private.key ladybird@0.cloud.chals.io -p 21986
 
-![ask_and_recv_2](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/ask_and_recv_2.png?raw=true)
+![ask_and_recv_2](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/ask_and_recv_2.png?raw=true)
 
 ## Ask and You Shall Recv 3
 
@@ -55,7 +55,7 @@ For this one we need to follow the same steps as with the second challenge, only
 
 > ssh -i p3.private.key -L 8888:localhost:8888 tunneler@0.cloud.chals.io -p 27141
 
-![ask_and_recv_3](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/ima.png?raw=true)
+![ask_and_recv_3](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/ima.png?raw=true)
 
 
 ## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/networking/back_to_basics_1_2)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/networking/signed_and_secured)

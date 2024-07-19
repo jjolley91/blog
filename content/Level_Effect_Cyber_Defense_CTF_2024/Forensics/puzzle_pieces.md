@@ -17,7 +17,7 @@ This one is an interesting challenge, in my opinion. The trick is to assemble th
 
 This is possible because the qr code contains redundant data nested inside it. All we are really missing to extract the data is the position detection pattern in the top left. If you arent very precise with your reassembly you might need to also correct the timing, but after that the assembled qr can be uploaded to [QRazyBox](https://merri.cx/qrazybox/), and use the Tools > extract data to retrieve the flag!
 
-![puzzle_pieces](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/puzzle_pieces.png?raw=true)
+![puzzle_pieces](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/puzzle_pieces.png?raw=true)
 
 
 ## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/motw)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/crimson_initiate)

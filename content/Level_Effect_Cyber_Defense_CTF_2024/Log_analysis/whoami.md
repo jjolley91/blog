@@ -13,7 +13,7 @@ tags: ['CTF','Writeups','Log_analysis','Warmups','Easy']
 
 ### What tactic was the attacker employing based on this command history? (1 word)
 
-![commands](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/commands.png?raw=true)
+![commands](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/commands.png?raw=true)
 
 From the given image, we can see that the commands are all designed to gather information on the system therefore the answer is: enumeration
 

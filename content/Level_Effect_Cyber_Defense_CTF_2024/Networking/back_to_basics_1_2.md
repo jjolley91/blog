@@ -23,7 +23,7 @@ tags: ['CTF','Writeups','Networking','Warmups','Easy']
 For each of these, all we need to do is look at the DNS records of the domain. There are several tools which can be used to do this, but I decided to use [Domain Dossier](https://centralops.net/co/domaindossier.aspx), which displayed both answers in one result.
 
 
-![back_to_basics_1_2](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/back_to_basics_1_2.png?raw=true)
+![back_to_basics_1_2](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/back_to_basics_1_2.png?raw=true)
 
 
 ## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/networking/)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/networking/ask_and_rcv_1_2_3)

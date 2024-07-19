@@ -93,7 +93,7 @@ bdpvqmfpgcpyfo
 ```
 We can put it through a rot cypher and adjust the amount to either 24, or -2 and retrieve the flag.
 
-![donuts](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/donuts.png?raw=true)
+![donuts](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/donuts.png?raw=true)
 
 To make the script print the flag directly, we can modify it like so:
 

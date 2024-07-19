@@ -17,7 +17,7 @@ For this one, the flag can be found as one of the options in the poll, inside th
 
 Note: you need to join the discord.
 
-![Your Opinion Matters](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/opinion_matters.png?raw=true)
+![Your Opinion Matters](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/opinion_matters.png?raw=true)
 
 
 

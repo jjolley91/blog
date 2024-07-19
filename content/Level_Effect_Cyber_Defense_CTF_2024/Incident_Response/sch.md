@@ -25,7 +25,7 @@ For this challenge, we can simply look for users who have their password set to 
 wmic useraccount where "PasswordExpires=False" get Name
 ```
 
-![sch_part_1](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/sch_part_1.png?raw=true)
+![sch_part_1](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/sch_part_1.png?raw=true)
 
 
 ## SCH Part 2 - Part of the club (Easy)
@@ -38,7 +38,7 @@ We can guess that the group they are talking about here is Administrators, and c
 net localgroup Administrators
 ```
 
-![sch_part_2](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/sch_part_2.png?raw=true)
+![sch_part_2](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/sch_part_2.png?raw=true)
 
 
 
@@ -48,7 +48,7 @@ net localgroup Administrators
 
 Something registered that runs every 5 minutes...sounds like a scheduled task. We can check Autoruns, and sure enough, something here stands out as strange:
 
-![sch_part_3](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/sch_part_3.png?raw=true)
+![sch_part_3](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/sch_part_3.png?raw=true)
 
 
 ## SCH Part 4 - Check in (Medium)
@@ -58,7 +58,7 @@ Something registered that runs every 5 minutes...sounds like a scheduled task. W
 For this, we can check Process Explorer, and quickly we will see a process is running which has a parent process of explorer.exe, which we did not start:
 
 
-![sch_part_4](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/sch_part_4.png?raw=true)
+![sch_part_4](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/sch_part_4.png?raw=true)
 
 ## SCH Part 5 - Pásale (Medium)
 
@@ -77,7 +77,7 @@ and
 
 Since this is spawning the processes every minute, we dont need to wait long. We can quickly see that it is spawning the processes:
 
-![sch_part_5](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/sch_part_5.png?raw=true)
+![sch_part_5](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/sch_part_5.png?raw=true)
 
 We can then simply put them in the format requested, and submit the sha256 hash as the answer:
 
@@ -94,7 +94,7 @@ echo -n "ipconfig.exe:net.exe:systeminfo.exe" | sha256sum
 
 For this challenge, we can return to the olgreg.exe process running in Process Explorer. We can right click on the process, click properties, and view the TCP/IP tab to find the domain with the connection ESTABLISHED, and submit the answer:
 
-![sch_part_6](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/sch_part_6.png?raw=true)
+![sch_part_6](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/sch_part_6.png?raw=true)
 
 ## SCH Part 7 - Wrong path (Medium)
 
@@ -102,7 +102,7 @@ For this challenge, we can return to the olgreg.exe process running in Process E
 
 For this next part, we can return to Autoruns, and inspect the Services running on the machine. If we inspect one of the (Not Verified) services, we can see that it is running a file from the C:\Windows\Temp directory, which is unusual:
 
-![sch_part_7](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/sch_part_7.png?raw=true)
+![sch_part_7](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/sch_part_7.png?raw=true)
 
 The name of the service is the answer.
 
@@ -113,11 +113,11 @@ The name of the service is the answer.
 Here we can simply proceed from the autoruns_1_5ious step to the inetrun.exe binary in the Temp folder. If we dump the strings we see reference to a dll in the path:
 > C:\Users\Administrator\AppData\Roaming\.cache\IECleanCache.dll
 
-![sch_part_8_1](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/sch_part_8_1.png?raw=true)
+![sch_part_8_1](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/sch_part_8_1.png?raw=true)
 
 If we follow that path, and dump the strings on the IECleanCache.dll, we can retrieve the flag directly below the malicious url from earlier:
 
-![sch_part_8_2](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/sch_part_8_2.png?raw=true)
+![sch_part_8_2](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/sch_part_8_2.png?raw=true)
 
 ## SCH Part 9 - Parasite (Hard)
 
@@ -130,7 +130,7 @@ Here we can simply look at the parent process of olgreg.exe in Process Explorer.
 ##### Note: This is an example of dll injection. For a more detailed explaination of this, Anthony from Level Effect recently did a walkthrough of another example of this that can be found [Here](https://www.youtube.com/watch?v=7fOa2IWZIck).
 
 
-![sch_part_9](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/sch_part_9.png?raw=true)
+![sch_part_9](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/sch_part_9.png?raw=true)
 
 ## SCH Part 10 - Slippery slug (Hard)
 
@@ -142,7 +142,7 @@ Well this one is fairly easy, since we had already identified the malicious dll 
 Get-FileHash .\IECleanCache.dll -Algorithm SHA256
 ```
 
-![sch_part_10](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/sch_part_10.png?raw=true)
+![sch_part_10](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/sch_part_10.png?raw=true)
 
 # Note: Dont forget to be a good Incident responder and clean up the system when you're done! We've identified all of the components so remove everything and make sure you didn't miss anything even if it isn't part of the challenge. ;)
 

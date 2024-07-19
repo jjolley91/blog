@@ -15,7 +15,7 @@ tags: ['CTF','Writeups','osint','Warmups','Easy']
 
 Pretty easy here, just read the rules. The flag can be found in the ['Flag Structure'](https://training.leveleffect.com/courses/f4a9466f-edb0-42ff-bb0e-a95af2b05de5/take/flag-structure-read-this-#top) section.
 
-![roe](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/roe.png?raw=true)
+![roe](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/roe.png?raw=true)
 
 
 

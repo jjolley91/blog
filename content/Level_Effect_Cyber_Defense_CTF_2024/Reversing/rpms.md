@@ -24,24 +24,24 @@ Since this is written in .NET, we can decompile it using DNSpy.
 We can quickly see that the actual name of this binary is Proker.exe.
 Doing some inspection of what this is doing, it seems to be a Discord token stealer, and a cryptostealer. However, if we look at the main Program, we can see where it is printing the message, as well as a StringDecrypt function:
 
-![rpms_main](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/rpms_main.png?raw=true)
+![rpms_main](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/rpms_main.png?raw=true)
 
 If we follow the string decrypt function, we find that it is pulling some base64 strings and using those to decrypt:
 
-![rpms_decrypt_function](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/rpms_decrypt_function.png?raw=true)
+![rpms_decrypt_function](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/rpms_decrypt_function.png?raw=true)
 
 Following the Arguments, we can see that the 'Message' value is the payload, as well as the 'IP' value, they are being base64 decoded, xored, and base64 decoded again.
 
-![rpms_strings](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/rpms_strings.png?raw=true)
+![rpms_strings](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/rpms_strings.png?raw=true)
 
 
 We can see that there are some operations being done on the IP first, which we can reverse by base64 decoding, then xor the result with the value "Stemmatous", and then base64 decode again:
 
-![rpms_ip](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/rpms_ip.png?raw=true)
+![rpms_ip](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/rpms_ip.png?raw=true)
 
 We can perform the same steps on the 'message' value, and retrieve the flag:
 
-![rpms_flag](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/rpms_flag.png?raw=true)
+![rpms_flag](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/rpms_flag.png?raw=true)
 
 
 ## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/shortcut)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/mangled)
