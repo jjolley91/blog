@@ -7,9 +7,9 @@ tags: ['CTF','Writeups','Scripting','Medium','Written_by_me']
 
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Scripting](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Scripting/)
+###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Scripting](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/scripting/)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Scripting/perfect_match)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Scripting/trees_speak_in_hex)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/scripting/perfect_match)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/scripting/trees_speak_in_hex)
 
 ### Can you find the flag in this? Each character of the flag is preceded by exactly 6 digits.
 
@@ -22,4 +22,4 @@ Something like \d{6}. should work. Or you can use this recipe in [Cyberchef](htt
 
 
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Scripting/perfect_match)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Scripting/trees_speak_in_hex)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/scripting/perfect_match)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/scripting/trees_speak_in_hex)

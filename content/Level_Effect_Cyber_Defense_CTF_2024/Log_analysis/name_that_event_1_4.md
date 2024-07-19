@@ -7,9 +7,9 @@ tags: ['CTF','Writeups','Log_analysis','Warmups','Easy']
 
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Log_analysis](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Log_analysis/)
+###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Log_analysis](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/log_analysis/)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Log_analysis/)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Log_analysis/whoami)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/log_analysis/)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/log_analysis/whoami)
 
 
 For these challenges, you can refrence [This table](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx)
@@ -49,4 +49,4 @@ Answer: 4688
 
 Answer: 1102
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Log_analysis/)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Log_analysis/whoami)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/log_analysis/)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/log_analysis/whoami)

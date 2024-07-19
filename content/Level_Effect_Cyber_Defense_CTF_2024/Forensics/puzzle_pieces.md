@@ -7,9 +7,9 @@ tags: ['CTF','Writeups','Forensics','Hard','Written_by_me']
 
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Forensics](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/)
+###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Forensics](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/motw)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/crimson_initiate)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/motw)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/crimson_initiate)
 
 ### I had a flag on this handy QR code, but a fiend cut it up into pieces and threw one of them away! Is there still a way to retrieve the flag?
 
@@ -20,4 +20,4 @@ This is possible because the qr code contains redundant data nested inside it. A
 ![puzzle_pieces](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/puzzle_pieces.png?raw=true)
 
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/motw)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/crimson_initiate)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/motw)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/crimson_initiate)

@@ -7,9 +7,9 @@ tags: ['CTF','Writeups','Forensics','Warmups','Easy']
 
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Forensics](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/)
+###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Forensics](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/magic_repairman)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/snake_in_my_boot)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/magic_repairman)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/snake_in_my_boot)
 
 ### Learning about the Y2K38 problem will lead you to a way to decode the flag. 1721387471
 
@@ -25,4 +25,4 @@ date -u -d @1721387471
 Simply wrap the flag in the leveleffect{} wrapper in the way described and that's it!
 
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/magic_repairman)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/snake_in_my_boot)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/magic_repairman)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/snake_in_my_boot)

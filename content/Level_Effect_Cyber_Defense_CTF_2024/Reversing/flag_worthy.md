@@ -7,9 +7,9 @@ tags: ['CTF','Writeups','Reversing','Medium']
 
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Reversing](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/)
+###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Reversing](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/reversing/)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/cradle_1_2)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/shortcut)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/reversing/cradle_1_2)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/reversing/shortcut)
 
 ### The flag may be encrypted but it most certainly can be recovered. Can you retrieve it?
 
@@ -27,4 +27,4 @@ However, if we look at the text above, we can see that it still prints the flag.
 ![flag_worthy](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/flag_worthy.png?raw=true)
 
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/cradle_1_2)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/shortcut)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/reversing/cradle_1_2)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/reversing/shortcut)

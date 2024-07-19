@@ -7,9 +7,9 @@ tags: ['CTF','Writeups','Reversing','Hard']
 
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Reversing](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/)
+###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Reversing](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/reversing/)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/shortcut)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/mangled)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/reversing/shortcut)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/reversing/mangled)
 
 ### This is an actual malware sample seen in the wild. It's been defanged but it retains a lot if its original indicators. Amidst those indicators, you guessed it, is the flag!
 
@@ -44,4 +44,4 @@ We can perform the same steps on the 'message' value, and retrieve the flag:
 ![rpms_flag](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/rpms_flag.png?raw=true)
 
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/shortcut)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/mangled)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/reversing/shortcut)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/reversing/mangled)

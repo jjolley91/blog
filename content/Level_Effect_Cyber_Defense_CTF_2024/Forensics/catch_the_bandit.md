@@ -7,9 +7,9 @@ tags: ['CTF','Writeups','Forensics','Medium','Written_by_me']
 
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Forensics](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/)
+###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Forensics](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/double_take)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/haystack)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/double_take)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/haystack)
 
 ### Can you catch the bandit and recover the flag?
 
@@ -37,4 +37,4 @@ All we need to do now is recover the file and retrieve the flag! There are many 
 
 
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/double_take)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/haystack)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/double_take)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/haystack)

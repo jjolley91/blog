@@ -7,9 +7,9 @@ tags: ['CTF','Writeups','Email_Security','Warmups','Easy']
 
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Email_Security](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Email_Security/)
+###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Email_Security](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/email_security/)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Email_Security/identity_crisis)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Email_Security/out_phishing)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/email_security/identity_crisis)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/email_security/out_phishing)
 
 ### I keep more than your skin safe. 😃
 
@@ -33,4 +33,4 @@ How SPF Works:
 
 5. Action: Based on the result of the SPF check, the receiving server can take appropriate actions such as accepting the email, flagging it as suspicious, or rejecting it outright.
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Email_Security/identity_crisis)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Email_Security/out_phishing)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/email_security/identity_crisis)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/email_security/out_phishing)

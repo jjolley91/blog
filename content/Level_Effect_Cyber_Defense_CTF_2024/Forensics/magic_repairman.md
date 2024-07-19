@@ -7,9 +7,9 @@ tags: ['CTF','Writeups','Forensics','Easy']
 
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Forensics](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/)
+###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Forensics](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/thats_epoch)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/thats_epoch)
 
 ### You'll probably need some tools to fix this one. Hexedit, HxD or hexed.it are commonly used.
 
@@ -30,4 +30,4 @@ We will quickly see that the code for R is 52, and it needs to be changed to 50.
 ![magic_repairman_2](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/magic_repairman_2.png?raw=true)
 
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/thats_epoch)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/thats_epoch)

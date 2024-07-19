@@ -7,9 +7,9 @@ tags: ['CTF','Writeups','Incident_Response','Medium','Hard']
 
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Incident_Response](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Incident_Response/)
+###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Incident_Response](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/incident_response/)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Incident_Response/newws_flash_1_2)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Incident_Response/sch)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/incident_response/newws_flash_1_2)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/incident_response/sch)
 
 
 #### All of the Autoruns challenges were done on the 'Autoruns Challenges' VM.
@@ -110,5 +110,5 @@ We can see from process explorer this file is being opened from
 ![ar_5_3](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/ar_5_3.png?raw=true)
 
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Incident_Response/newws_flash_1_2)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Incident_Response/sch)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/incident_response/newws_flash_1_2)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/incident_response/sch)
 

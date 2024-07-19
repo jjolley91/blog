@@ -7,9 +7,9 @@ tags: ['CTF','Writeups','Incident_Response','Easy', 'Medium']
 
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Incident_Response](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Incident_Response/)
+###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Incident_Response](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/incident_response/)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Incident_Response/)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Incident_Response/autoruns_1_5)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/incident_response/)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/incident_response/autoruns_1_5)
 
 ## Newws Flash 1
 
@@ -33,4 +33,4 @@ We can follow the same process for this challenge as in Newws Flash 1, Upload th
 ![newws_flash_2](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/newws_flash_2.png?raw=true)
 
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Incident_Response/)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Incident_Response/autoruns_1_5)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/incident_response/)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/incident_response/autoruns_1_5)

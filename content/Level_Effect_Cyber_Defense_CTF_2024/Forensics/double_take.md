@@ -7,9 +7,9 @@ tags: ['CTF','Writeups','Forensics','Medium']
 
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Forensics](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/)
+###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Forensics](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/snake_in_my_boot)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/catch_the_bandit)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/snake_in_my_boot)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/catch_the_bandit)
 
 ### I'm sure this image is hiding something, but nothing stands out no matter how I look at it. Maybe it's just stringing me along...
 
@@ -23,4 +23,4 @@ strings -e l doubletake.jpg | base64 -d
 ![doubletake](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/doubletake.png?raw=true)
 
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/snake_in_my_boot)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Forensics/catch_the_bandit)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/snake_in_my_boot)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/forensics/catch_the_bandit)

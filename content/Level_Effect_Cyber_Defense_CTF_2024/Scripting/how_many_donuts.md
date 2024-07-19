@@ -7,9 +7,9 @@ tags: ['CTF','Writeups','Scripting','Medium']
 
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Scripting](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Scripting/)
+###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Scripting](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/scripting/)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Scripting/)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Scripting/perfect_match)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/scripting/)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/scripting/perfect_match)
 
 ### Samwise, I've had enough of your lembas bread. I want donuts. How many you ask? well I wrote you a script. It mostly works, but the answer will be revealed when it does. I mean at least a couple of them!
 
@@ -122,4 +122,4 @@ done
 ```
 
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Scripting/)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Scripting/perfect_match)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/scripting/)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/scripting/perfect_match)

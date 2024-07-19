@@ -7,9 +7,9 @@ tags: ['CTF','Writeups','CTI','Medium','Hard','Written_by_me']
 
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [CTI](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/CTI/)
+###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [CTI](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/cti/)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/CTI/got_my_tail)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/cti/got_my_tail)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/)
 
 
 #### Note: I only wrote jeopardy questions 2 & 3.
@@ -58,4 +58,4 @@ We can also use [VirusTotal](https://www.virustotal.com/gui/url/f4ad10711c2ec38c
 For this challenge, again, we can do some research. These given indicators are fairly vague though, as many APTs are known to use these ttps. However, we are also given a file hash which looks interesting. If we upload the hash to [VirusTotal](https://www.virustotal.com/gui/file/b731b4871f95c51ac47a3fa3fdc0704e624b0e923dc327af371dd851625646dd/detection), we will see that the name of the file is mt.exe. Some further research will show that this is MURKYTOP. This will ultimately lead us to the name of the group we are looking for.
 
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/CTI/got_my_tail)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/cti/got_my_tail)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/)

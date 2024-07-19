@@ -7,9 +7,9 @@ tags: ['CTF','Writeups','Log_analysis','Easy','Written_by_me']
 
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Log_analysis](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Log_analysis/)
+###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Log_analysis](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/log_analysis/)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Log_analysis/whoami)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/scripting/)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/log_analysis/whoami)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/scripting/)
 
 ### An analyst noticed some suspicious account activity on a workstation. We think the device may be compromised – can you look into this?
 
@@ -23,4 +23,4 @@ We can simply use the 'Find' command to filter for leveleffect, and it will take
 ![in_the_system](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/in_the_system.png?raw=true)
 
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Log_analysis/whoami)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/scripting/)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/log_analysis/whoami)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/scripting/)

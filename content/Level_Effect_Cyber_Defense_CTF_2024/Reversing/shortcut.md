@@ -7,9 +7,9 @@ tags: ['CTF','Writeups','Reversing','Hard']
 
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Reversing](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/)
+###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Reversing](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/reversing/)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/flag_worthy)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/rpms)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/reversing/flag_worthy)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/reversing/rpms)
 
 ### The key to solving this challenge is LNKing things together!
 
@@ -37,4 +37,4 @@ and then run the flag.ps1 file with the input 'open' to retrieve the flag:
 
 
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/flag_worthy)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/rpms)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/reversing/flag_worthy)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/reversing/rpms)

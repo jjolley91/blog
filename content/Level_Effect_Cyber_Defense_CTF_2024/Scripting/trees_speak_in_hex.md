@@ -7,9 +7,9 @@ tags: ['CTF','Writeups','Scripting','Hard']
 
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Scripting](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Scripting/)
+###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Scripting](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/scripting/)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Scripting/hay_in_a_needlestack)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/scripting/hay_in_a_needlestack)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/)
 
 ### As a result of their investigation, the Incident Response team has identified 10 malicious files and provided us the "bad" hashes in iocs.txt.
 
@@ -57,4 +57,4 @@ print(f"Total number of hashes found in the files: {total_hashes_count}")
 ![hex](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/hex.png?raw=true)
 
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Scripting/hay_in_a_needlestack)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/scripting/hay_in_a_needlestack)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Reversing/)

@@ -7,9 +7,9 @@ tags: ['CTF','Writeups','Email_Security','Medium']
 
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Email_Security](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Email_Security/)
+###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Email_Security](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/email_security/)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Email_Security/out_phishing)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Log_analysis/)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/email_security/out_phishing)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Log_analysis/)
 
 ### This is a common encoding system that phishers abuse in their endless quest to bypass email scanners. Can you figure out what it is?
 
@@ -25,4 +25,4 @@ We can paste this into [Cyberchef](https://cyberchef.org/) and use the 'magic' r
 ![trick_in_the_book](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/trick_in_the_book.png?raw=true)
 
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Email_Security/out_phishing)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Log_analysis/)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/email_security/out_phishing)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Log_analysis/)

@@ -7,9 +7,9 @@ tags: ['CTF','Writeups','Scripting','Medium']
 
 # [Home](https://jjolley91.github.io/blog/) >
 
-###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Scripting](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Scripting/)
+###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Scripting](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/scripting/)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Scripting/how_many_donuts)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Scripting/hay_in_a_needlestack)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/scripting/how_many_donuts)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/scripting/hay_in_a_needlestack)
 
 ### Regex - love it or hate it, it's an invaluable skill to have as a defender.
 
@@ -54,4 +54,4 @@ This regex does the trick:
 We can paste it into the submission script and complete the challenge. 
 
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Scripting/how_many_donuts)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Scripting/hay_in_a_needlestack)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/scripting/how_many_donuts)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/scripting/hay_in_a_needlestack)
