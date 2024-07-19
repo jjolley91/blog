@@ -9,7 +9,7 @@ tags: ['CTF','Writeups','Reversing','Hard']
 
 ###  [Cyber Defense CTF](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/) >  [Reversing](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/reversing/)
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/reversing/rpms)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/CTI/)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/reversing/rpms)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/cti/)
 
 ### Pack? Sure. Unpack? Well...
 
@@ -38,4 +38,4 @@ We can open the packed-flag_dump_64_SCY.exe in Ghidra and retrieve the flag:
 ![mangled_final](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/mangled_final.png?raw=true)
 
 
-## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/reversing/rpms)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/CTI/)
+## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/reversing/rpms)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/cti/)
