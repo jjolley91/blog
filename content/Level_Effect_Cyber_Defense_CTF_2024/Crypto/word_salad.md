@@ -27,7 +27,7 @@ This is the first of 3 challenges I designed to be solved using [Cyberchef](http
 * from hex
 * rot13
 
-![word_salad](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/word_salad.png?raw=true)
+![word_salad](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/word_salad.png?raw=true)
 
 
 ## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/base_level)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/pasta_filiformis)

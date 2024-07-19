@@ -20,7 +20,7 @@ tags: ['CTF','Writeups','Cryptography','Warmups','Easy']
 
 This one is pretty straightforward. We are given a key and IV, as well as an AES encrypted flag. We can just decrypt the flag using something like [Cyberchef](https://cyberchef.org/#recipe=AES_Decrypt(%7B'option':'Hex','string':''%7D,%7B'option':'Hex','string':''%7D,'CBC','Hex','Raw',%7B'option':'Hex','string':''%7D,%7B'option':'Hex','string':''%7D)), and then base64 decode the result.
 
-![if_only](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/if_only.png?raw=true)
+![if_only](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/if_only.png?raw=true)
 
 
 ## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/base_level)

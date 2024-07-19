@@ -15,7 +15,7 @@ tags: ['CTF','Writeups','Cryptography','Medium','Steganography']
 
 For this challenge, we are given a key.png to download.
 
-![key](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/key.png?raw=true)
+![key](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/key.png?raw=true)
 
 The trick here is to extract the least significant bit from the image:
 ```python
@@ -36,7 +36,7 @@ The result gives us a long string of output, but if we look at the very beginnin
 
 This looks like base64, and it does seem to decode, but not into a flag. We are still missing the final step, If we look back at the original image we see '21A' is printed on the key. All we need to do is XOR decrypt the remaining string to get the correct flag:
 
-![bits_abound](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/bits_abound.png?raw=true)
+![bits_abound](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/bits_abound.png?raw=true)
 
 
 ## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/cipher_pudding)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/rock_on)

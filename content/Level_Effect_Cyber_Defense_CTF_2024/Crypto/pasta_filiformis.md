@@ -25,7 +25,7 @@ The steps to solve this one are:
 * from base32 
 * rot 17 
 
-![pasta_filiformis](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/pasta_filiformis.png?raw=true)
+![pasta_filiformis](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/pasta_filiformis.png?raw=true)
 
 
 ## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/word_salad)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/cipher_pudding)

@@ -18,7 +18,7 @@ tags: ['CTF','Writeups','Cryptography','Medium','Written_by_me']
 
 On to the last course! Here we are given another encoded message. These symbols are in a font called 'Wingdings', as the hint in the prompt suggests. The first step can be decoded using a [wingdings decoder](https://lingojam.com/WingdingsTranslator) such as this one:
 
-![cipher_pudding_1](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/cipher_pudding_1.png?raw=true)
+![cipher_pudding_1](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/cipher_pudding_1.png?raw=true)
 
 The rest can be decoded in [Cyberchef](https://cyberchef.org/) using the following steps:
 * from base64 
@@ -28,7 +28,7 @@ The rest can be decoded in [Cyberchef](https://cyberchef.org/) using the followi
 * from hex
 
 
-![cipher_pudding_2](https://github.com/jjolley91/blog/tree/main/static/le_ctf_24/cipher_pudding_2.png?raw=true)
+![cipher_pudding_2](https://github.com/jjolley91/blog/blob/main/static/le_ctf_24/cipher_pudding_2.png?raw=true)
 
 
 ## [Back](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/pasta_filiformis)  <> [Next](https://jjolley91.github.io/blog/level_effect_cyber_defense_ctf_2024/Crypto/bits_abound)
